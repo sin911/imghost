@@ -131,7 +131,15 @@ h3.new{padding-bottom:4px;margin-top:18px;font-size:14px;color:#333333;border-bo
 .nimahexie2{color:#333;font-size:14px;margin-top:15px;}
 
 .comment-wrap .wsj-input-wrap{margin-bottom:5px;}
-.comment-wrap #respond h3{font-size:16px;}
-.comment-wrap #author{border:1px solid #999}
-.comment-wrap #email{border:1px solid #999}
-.comment-wrap #url{border:1px solid #999}
+.comment-wrap #respond h3{font-size:16px;margin-bottom:5px;}
+.comment-wrap #author{border:1px solid #999;padding:5px;}
+.comment-wrap #email{border:1px solid #999;padding:5px;}
+.comment-wrap #url{border:1px solid #999;padding:5px;}
+.comment-wrap .wsj-txa-wrap #comment{border:1px solid #999;padding:5px;font-size:16px;width:400px;height:100px;}
+.comment-wrap .wsj-submit-wrap{margin:10px 0;}
+.comment-wrap .wsj-submit-wrap #submit{display:block;border:none;border-radius:2px;width:100px;height:40px;line-height:40px;background-color:#e12160;color:#fff;cursor:pointer;}
+
+.wsjcomments{margin-bottom:10px;border-left:5px solid #54829b;padding-left:10px;font-size:16px;}
+.commentlist > li{margin-bottom:10px;border-bottom:1px dashed #999;padding-bottom:5px;}
+.commentlist li .fn{font-style:normal;color:#ff7b05;}
+.commentlist .wsjcomsctx{font-size:16px;}
