@@ -1,3 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width = device-width, initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="renderer" content="webkit">
+<meta name="msapplication-tap-highlight" content="no" /><!-- winphone 点击无高光 -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>演示例子</title>
+</head>
+<body>
+<style>
 /*
 Theme Name: miaonewpc
 */
@@ -92,7 +109,8 @@ ul,li,ol{list-style:none}
 .zhenwen ol li,.zhenwen ul li{ margin:5px 30px; list-style:decimal;font-size:14px;line-height:22px; color:#333;}
 .zhenwen ul li{list-style:disc;}
 .bluege{font-size:16px;margin:5px auto;padding:5px 10px;letter-spacing:1px;background-color:#f1f7fd;border:1px solid #a5d7ff;}
-.cc{font-size:14px;margin:5px auto;padding:5px 10px;letter-spacing:1px;background-color:#fff5fa;border:1px solid #f8b3d0;}
+.cc,.ee{font-size:14px;margin:5px auto;padding:5px 10px;letter-spacing:1px;background-color:#fff5fa;border:1px solid #f8b3d0;}
+.ee{color: #788cb1;background-color: #f2f5fa;border:1px solid #f2f5fa;}
 .quotte{font-size:14px;padding:5px 15px 5px 35px;line-height:2;border:1px dashed #999;color:#333;margin:15px 0;background:#e9f8fb url(images/all.png) -48px -130px no-repeat;}
 .cutf2{height:1px;border-top:1px solid #c2c3c4;background-color:#fff;margin-top:10px;margin-bottom:5px;}
 .con-tag{color: #666;font-size: 12px;margin-top: 13px;}
@@ -147,3 +165,11 @@ h3.new{padding-bottom:4px;margin-top:18px;font-size:14px;color:#333333;border-bo
 .commentlist ul.children{margin-left:8px;}
 .commentlist .commentmetadata{color:#A5A5A5;font-size:12px;}
 .commentlist .comment-reply-link{color:#A5A5A5;font-size:12px;}
+
+</style>
+
+
+<script>
+</script>
+</body>
+</html>
