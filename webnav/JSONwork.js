@@ -5,7 +5,7 @@ var global_data = [
       {
         link: "https://activity.lenovo.com.cn/club/lucky.html",
         favicon: "",
-        text: "联想大转盘",
+        text: "联2想大转盘",
         comment: "抽屉的13175164515-zxcvbnm5+1无大写联系邮箱415791939@qq.com;",
       },
       {
