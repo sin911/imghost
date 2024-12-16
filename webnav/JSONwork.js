@@ -229,6 +229,42 @@ var global_data = [
     title: "chatGPT",
     data: [
       {
+        link: "https://chatgptplus.cn/",
+        favicon: "",
+        text: "chatGPT",
+        comment: "",
+      },
+      {
+        link: "https://chatgpt.dairoot.cn/",
+        favicon: "",
+        text: "chatGPT",
+        comment: "",
+      },
+      {
+        link: "https://aicnn.cn/oaifree",
+        favicon: "",
+        text: "chatGPT",
+        comment: "",
+      },
+      {
+        link: "https://free.share-ai.top/user-new/#/login",
+        favicon: "",
+        text: "chatGPT",
+        comment: "",
+      },
+      {
+        link: "https://github.com/dairoot/ChatGPT-Mirror",
+        favicon: "",
+        text: "自建GPT",
+        comment: "",
+      },
+      {
+        link: "hhttps://free.opao.xyz/list",
+        favicon: "",
+        text: "chatGPT",
+        comment: "",
+      },
+      {
         link: "https://chat.openai.com/",
         favicon: "",
         text: "chatGPT",
@@ -270,6 +306,12 @@ var global_data = [
     title: 'chrome开发',
     data: [
       {
+        link: "https://chrome.google.com/webstore/devconsole",
+        favicon: "",
+        text: "插件发布",
+        comment: "",
+      },
+      {
         link: "https://developer.chrome.google.cn/docs/extensions?hl=zh-cn",
         favicon: "",
         text: "开发文档",
@@ -281,6 +323,12 @@ var global_data = [
         text: "开发资讯",
         comment: "",
       },
+      {
+        link: "https://developer.chrome.com/docs/extensions/get-started/tutorial/scripts-activetab?hl=zh-cn",
+        favicon: "",
+        text: "官方教程",
+        comment: "",
+      }
     ]
   },
   {
@@ -434,7 +482,7 @@ var global_data = [
         comment: "",
       },
       {
-        link: " https://apizza.net/",
+        link: " https://www.apizza.net/",
         favicon: "https://cdn.apizza.net/faviconpro.png",
         text: "apizz",
         comment: "miuqi02asd",
@@ -1358,7 +1406,7 @@ var global_data = [
         comment: "",
       },
       {
-        link: "https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+        link: "https://dgithub.xyz/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
         favicon: "https://github.githubassets.com/pinned-octocat.svg",
         text: "翻一",
         comment: "",

@@ -28,7 +28,7 @@ var global_data = [
         comment: '',
       },
       {
-        link: 'http://maolihui.com/',
+        link: 'https://maolihui.com/',
         favicon: './icon/maolihui.com.ico',
         text: '猫理会',
         comment: '',
@@ -61,6 +61,12 @@ var global_data = [
         link: 'https://www.98zhibo.com/nbalx/',
         favicon: '',
         text: 'NBA回放',
+        comment: '',
+      },
+      {
+        link: 'https://web.h-red.com/video-replay/',
+        favicon: '',
+        text: 'nba回放2',
         comment: '',
       },
       {
@@ -395,6 +401,12 @@ var global_data = [
         favicon: '',
         text: '一休短剧',
         comment: '',
+      },
+      {
+        link: "http://s9z.top/h5",
+        favicon: "",
+        text: "视游社",
+        comment: "qq群952430777;",
       }
 
     ],
