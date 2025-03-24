@@ -1,6 +1,6 @@
 var global_data = [
   {
-    title: "常11用",
+    title: "常用",
     data: [
       {
         link: "https://activity.lenovo.com.cn/club/lucky.html",
