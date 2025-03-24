@@ -94,10 +94,10 @@ var global_data = [
         comment: '',
       },
       {
-        link: 'https://www.956.tv/',
+        link: 'https://www.956001.tv/',
         favicon: '',
         text: '956体育',
-        comment: '',
+        comment: '失联fagame188@gmail.com',
       },
       {
         link: 'http://www.popozhibo.xyz/match/1',
@@ -122,6 +122,12 @@ var global_data = [
         favicon: '',
         text: '鲸鱼直播',
         comment: ''
+      },
+      {
+        link: 'https://kq1290.com/home',
+        favicon: '',
+        text: 'ufcc',
+        comment: '备用https://kq.cc/'
       },
       {
         link: 'https://720pstream.nu/',
@@ -183,10 +189,10 @@ var global_data = [
     title: '其他',
     data: [
       {
-        link: 'https://www.bet18lk.com/',
+        link: 'https://w3.18x999.com/',
         favicon: '',
         text: '新利菠菜',
-        comment: 'axzx大m5+1邮箱csd@18luck.com',
+        comment: 'axzx大m5+2邮箱csd@18luck.com https://w3.luck4302.com/ https://secure.livechatinc.com/licence/19042380/v2/open_chat.cgi?groups=1&name=aexwx https://affi.18luckf3.com/?account=aexwx&platform=2 ',
       },
       {
         link: 'https://www.google.com/adsense/v3/app?hl=zh_CN#home',
@@ -280,6 +286,18 @@ var global_data = [
         comment: '',
       },
       {
+        link: 'https://yunpan1.cc/',
+        favicon: '',
+        text: '懒盘搜索',
+        comment: 'oiv201726@163.com https://www.kdocs.cn/l/ce6gIRGCAzW3 https://www.yunpan1.wang/ https://yunpan1.wang/ https://www.yunpan1.xyz/ https://yunpan1.xyz/     https://www.yunpan1.cc/ https://yunpan1.cc/ https://www.yunpan1.co/ https://yunpan1.co/ https://link3.cc/yunpan1',
+      },
+      {
+        link: 'https://www.lzpanx.com/',
+        favicon: '',
+        text: '懒盘搜索',
+        comment: '',
+      },
+      {
         link: 'https://www.clgod123.com/',
         favicon: '',
         text: '磁力天堂',
@@ -304,10 +322,18 @@ var global_data = [
         text: 'za片源网',
         comment: '',
       },
-
-
-
-
+      {
+        link: 'https://panothers.com/',
+        favicon: '',
+        text: '盘他',
+        comment: '',
+      },
+      {
+        link: 'https://xunlei8.org/',
+        favicon: '',
+        text: 'xunlei8',
+        comment: '',
+      },
       {
         link: 'https://yzzy.tv/',
         favicon: '',
@@ -328,10 +354,10 @@ var global_data = [
       },
 
       {
-        link: 'http://www.9bt0.com/',
+        link: 'https://www.butailing.com/',
         favicon: '',
         text: '不太灵',
-        comment: 'www.1bt0.com到www.9bt0.com 到2bt0',
+        comment: 'www.0bt0.com   www.1bt0.com   www.2bt0.com   www.3bt0.com   www.4bt0.com   www.5bt0.com   www.6bt0.com   www.7bt0.com   www.8bt0.com   www.9bt0.com',
       },
       {
         link: 'http://www.66ys.co/',

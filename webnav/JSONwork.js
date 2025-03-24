@@ -9,9 +9,9 @@ var global_data = [
         comment: "抽屉的13175164515-zxcvbnm5+1无大写联系邮箱415791939@qq.com;",
       },
       {
-        link: " https://www.dapenti.com/blog/index.asp",
+        link: " https://www.n.cn/",
         favicon: "",
-        text: "喷嚏王",
+        text: "纳米搜索",
         comment: "",
       },
       {
@@ -135,10 +135,16 @@ var global_data = [
         text: "主题森林免费主题",
         comment: "",
       },
+
       {
         link: "https://www.dsxkline.com/",
         favicon: "",
         text: "大师兄kline",
+        comment: "",
+      }, {
+        link: "https://aff.alimama.com",
+        favicon: "",
+        text: "阿里妈妈",
         comment: "",
       }
     ],
@@ -229,6 +235,18 @@ var global_data = [
     title: "chatGPT",
     data: [
       {
+        link: "https://gitee.com/gamepublic/cursor-pro-tool",
+        favicon: "",
+        text: "cursor账号",
+        comment: "",
+      },
+      {
+        link: "https://yuanbao.tencent.com/chat",
+        favicon: "",
+        text: "腾讯元宝",
+        comment: "",
+      },
+      {
         link: "https://chatgptplus.cn/",
         favicon: "",
         text: "chatGPT",
@@ -247,6 +265,12 @@ var global_data = [
         comment: "",
       },
       {
+        link: "https://copilot.tencent.com/chat",
+        favicon: "",
+        text: "腾讯AI代码",
+        comment: "",
+      },
+      {
         link: "https://free.share-ai.top/user-new/#/login",
         favicon: "",
         text: "chatGPT",
@@ -259,7 +283,7 @@ var global_data = [
         comment: "",
       },
       {
-        link: "hhttps://free.opao.xyz/list",
+        link: "https://free.opao.xyz/list",
         favicon: "",
         text: "chatGPT",
         comment: "",
@@ -309,6 +333,12 @@ var global_data = [
         link: "https://chrome.google.com/webstore/devconsole",
         favicon: "",
         text: "插件发布",
+        comment: "",
+      },
+      {
+        link: "https://wxt.dev/",
+        favicon: "",
+        text: "wxt框架",
         comment: "",
       },
       {
@@ -428,6 +458,12 @@ var global_data = [
         comment: "axsoasd",
       },
       {
+        link: "https://ishadeed.com/article/overflow-clip/",
+        favicon: "",
+        text: "ishadeed",
+        comment: "",
+      },
+      {
         link: "https://cloud.tencent.com/developer/support-plan",
         favicon: "",
         text: "腾讯文章",
@@ -451,7 +487,36 @@ var global_data = [
         text: "cycBook",
         comment: "",
       },
+      {
+        link: "https://css-tricks.com/",
+        favicon: "",
+        text: "cssTricks",
+        comment: "",
+      }
     ],
+  },
+  {
+    title: "AI工具",
+    data: [
+      {
+        link: "https://www.insmind.com/zh-cn/background-remover/",
+        favicon: "",
+        text: "扣背景",
+        comment: "",
+      },
+      {
+        link: "https://www.iloveimg.com/zh-cn/convert-to-jpg/webp-to-jpg",
+        favicon: "",
+        text: "webp转jpg",
+        comment: "",
+      },
+      {
+        link: "https://docsmall.com/gif-compress",
+        favicon: "",
+        text: "gif压缩",
+        comment: "",
+      }
+    ]
   },
   {
     title: "调试工具",
@@ -631,7 +696,7 @@ var global_data = [
         favicon: "",
         text: "polyfill",
         comment: "",
-      },
+      }
     ],
   },
   {
@@ -762,33 +827,9 @@ var global_data = [
         comment: "",
       },
       {
-        link: " https://reactrouter.com/",
-        favicon: "https://reactrouter.com/favicon-light.png",
-        text: "react-router6",
-        comment: "",
-      },
-      {
-        link: "https://baimingxuan.github.io/react-router6-doc/utils/location",
-        favicon: "https://reactrouter.com/favicon-light.png",
-        text: "react-router6中文",
-        comment: "",
-      },
-      {
-        link: "https://reacttraining.com/react-router/web/guides/quick-start",
-        favicon: "https://reactrouter.com/favicon-light.png",
-        text: "react-router5",
-        comment: "",
-      },
-      {
-        link: "https://create-react-app.dev/docs/available-scripts/#npm-run-eject",
-        favicon: "https://reactrouter.com/favicon-light.png",
-        text: "create-react-app",
-        comment: "npx create-react-app hahaha",
-      },
-      {
-        link: "https://create-react-app.bootcss.com/docs/adding-images-fonts-and-files",
-        favicon: "https://reactrouter.com/favicon-light.png",
-        text: "create-react中文",
+        link: "https://api.reactrouter.com/v7/functions/react_router.Await.html",
+        favicon: "",
+        text: "route全示例",
         comment: "",
       },
       {
@@ -814,6 +855,12 @@ var global_data = [
   {
     title: "教程",
     data: [
+      {
+        link: "https://fe.duyiedu.com/bought",
+        favicon: "",
+        text: "渡一",
+        comment: ""
+      },
       {
         link: "https://zh.javascript.info",
         favicon: "",
@@ -1000,9 +1047,27 @@ var global_data = [
     title: "设计",
     data: [
       {
+        link: "https://dribbble.com/",
+        favicon: "",
+        text: "dribbble",
+        comment: "",
+      },
+      {
+        link: "https://www.awwwards.com/",
+        favicon: "",
+        text: "awwwards",
+        comment: "",
+      },
+      {
         link: "https://www.uisdc.com/",
         favicon: "https://www.uisdc.com/favicon.ico",
         text: "优设网",
+        comment: "",
+      },
+      {
+        link: "https://www.100font.com/",
+        favicon: "",
+        text: "100font字体下载",
         comment: "",
       },
       {
@@ -1373,8 +1438,31 @@ var global_data = [
     ],
   },
   {
+    title: "图片素材",
+    data: [
+      {
+        link: "https://pxhere.com/zh/photos",
+        favicon: "",
+        text: "pxhere",
+        comment: "",
+      }
+    ]
+  },
+  {
     title: "翻墙",
     data: [
+      {
+        link: "https://www.oracle.com/cn/cloud/free/",
+        favicon: "",
+        text: "oracle大陆",
+        comment: ""
+      },
+      {
+        link: "https://ip112.cn/",
+        favicon: "",
+        text: "ip被墙检测",
+        comment: ""
+      },
       {
         link: "https://developer.huaweicloud.com/space/devportal/desktop",
         favicon: "",
@@ -1418,9 +1506,9 @@ var global_data = [
         comment: "",
       },
       {
-        link: "https://tubedown.cn/youtube",
+        link: "https://youtu.be/JsRLZhL56C4",
         favicon: "",
-        text: "油管下载",
+        text: "油管自动播放",
         comment: "",
       },
       {
@@ -1544,4 +1632,104 @@ var global_data = [
       }
     ],
   },
+  {
+    title: "mac软件",
+    data: [
+      {
+        link: "https://macwk.com.cn/",
+        favicon: "",
+        text: "macwk",
+        comment: ""
+      },
+      {
+        link: "https://www.mac618.com/",
+        favicon: "",
+        text: "mac618",
+        comment: ""
+      },
+      {
+        link: "https://www.macbl.com/",
+        favicon: "",
+        text: "马可菠萝",
+        comment: "",
+      }
+    ]
+  },
+  {
+    title: '界面',
+    data: [
+      {
+        link: "https://template0.com/",
+        favicon: "",
+        text: "template0",
+        comment: "",
+      },
+      {
+        link: "https://uinotes.com/",
+        favicon: "",
+        text: "uinotes",
+        comment: "",
+      },
+      {
+        link: "https://svgl.app/",
+        favicon: "",
+        text: "logo",
+        comment: "",
+      },
+      {
+        link: "https://modao.cc/com24/home?category=project_basic&platform=app",
+        favicon: "",
+        text: "墨刀ui",
+        comment: "",
+      },
+      {
+        link: "https://www.drawdb.app/",
+        favicon: "",
+        text: "drawdb",
+        comment: "",
+      },
+      {
+        link: "https://readdy.ai/home",
+        favicon: "",
+        text: "readdy",
+        comment: "",
+      }
+    ]
+  },
+  {
+    title: '八字',
+    data: [
+      {
+        link: "https://lunisolar.js.org/guide/plugins/takeSound.html#%E5%AE%89%E8%A3%85",
+        favicon: "",
+        text: "lunisolar",
+        comment: "",
+      },
+      {
+        link: "https://pcbz.iwzwh.com/#/home/index",
+        favicon: "",
+        text: "iwzwh",
+        comment: "",
+      },
+      {
+        link: "https://yisuan.net/app-category/destiny",
+        favicon: "",
+        text: "yisuan",
+        comment: "",
+      },
+      {
+        link: "https://www.junzige.com/suanming/paipan/",
+        favicon: "",
+        text: "junzige",
+        comment: "",
+      },
+      {
+        link: "https://doc.yuanfenju.com/bazi/cesuan.html",
+        favicon: "",
+        text: "yuanfenju",
+        comment: "",
+      }
+    ]
+  }
+
 ];

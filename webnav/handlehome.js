@@ -4,19 +4,19 @@ document.getElementById('ipt_text').onkeydown = function (e) {
   //     window.location.href="https://xilesou.hk.gg363.site/search?q="+this.value
   // }
   if (e.keyCode === 13) {
-    window.open("http://baidu.com/s?wd=" + this.value, '_blank')
+    window.open("https://baidu.com/s?wd=" + this.value, '_blank')
   }
 }
 document.getElementById('btn_baidu').onclick = function (e) {
   var _val = document.getElementById('ipt_text').value
-  if (_val) window.open("http://baidu.com/s?wd=" + _val, '_blank');
-  else window.open("http://baidu.com/", '_blank');
+  if (_val) window.open("https://baidu.com/s?wd=" + _val, '_blank');
+  else window.open("https://baidu.com/", '_blank');
 }
 
 document.getElementById('btn_bing').onclick = function (e) {
   var _val = document.getElementById('ipt_text').value
-  if (_val) window.open("https://cn.bing.com/search?q=" + _val, '_blank');
-  else window.open("https://cn.bing.com", '_blank');
+  if (_val) window.open("https://www4.bing.com/search?q=" + _val, '_blank');
+  else window.open("https://www4.bing.com", '_blank');
 }
 async function getCurrentTab() {
   return new Promise((resolve) => {
