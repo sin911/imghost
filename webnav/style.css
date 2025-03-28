@@ -68,5 +68,5 @@ table{/*border-collapse: collapse;*/border-spacing: 0;}
 .btn-note-add{width:100%;height:40px;font-size:20px;line-height:40px;border:none;text-align:center;color:#fff;background-color:#9b59b6;margin-top:10px;cursor:pointer;}
 .popicon{position:fixed;bottom:10px;right:10px;opacity:1;width:58px;height:58px;line-height:58px;color:#fff;background-color:#38f;text-align:center;border-radius:50%;opacity:0.1;font-size:16px;cursor:pointer;}
 .popicon:hover{opacity:1;}
-.gopage{position:fixed;top:20px;right:0px;width:70px;height:40px;line-height:40px;color:#fff;background-color:#38f;text-align:center;font-size:16px;cursor:pointer;border-radius:9999px 0 0 9999px;padding-left:5px;}
+.gopage{position:fixed;top:80px;right:0px;width:70px;height:40px;line-height:40px;color:#fff;background-color:#38f;text-align:center;font-size:16px;cursor:pointer;border-radius:9999px 0 0 9999px;padding-left:5px;}
 .gopink{background-color:#ff78a9;}
