@@ -17,11 +17,8 @@ body{padding:10px;}
 .result{color:#38f;font-size:20px;}
 .common-ipt{box-sizing:border-box;width:100px;height:30px;padding:5px;border:1px solid #c8c8c8;border-radius: none;font-size:16px;}
 .common-ipt:focus{border:1px solid #38f;outline: none;}
-/*3d按钮*/
-.d3button{position: relative;width: 150px;padding: 1em;transition: 0.2s;letter-spacing: 1px;text-transform: uppercase;opacity: 0.8;color: var(--text-color);border: none;border-radius: 5px;background: var(--bg);box-shadow: #c0392b 0px 7px 2px, #000 0px 8px 5px;font-weight: bold;--bg: #e74c3c;--text-color: #fff;}
-.d3button:hover{opacity: 1;}
-.d3button:active{top: 4px;box-shadow: #c0392b 0px 3px 2px,#000 0px 3px 5px;}
-/*3d按钮end*/
+.mgb10{margin-bottom:10px;}
+
 
 /*增加一行的按钮*/
 .addbutton{position: relative;display: flex;align-items: center;width: 150px;height: 40px;cursor: pointer;border: 1px solid #34974d;background-color: #3aa856;}
@@ -35,18 +32,24 @@ body{padding:10px;}
 .addbutton:active .button__icon{background-color: #2e8644;}
 .addbutton:active{border: 1px solid #2e8644;}
 /*增加一行的按钮end*/
+/*结算按钮*/
+.d3button{position: relative;width: 150px;padding: 10px;color: var(--text-color);border: 1px solid #e44d42;border-radius: 5px;background: var(--bg);font-size:20px;--bg: #e74c3c;--text-color: #fff;}
+.d3button:active{opacity:0.5;}
+/*结算按钮end*/
+.restebutton{box-sizing: border-box;width: 150px;padding: 10px;color:#e74c3c;border:1px solid #e74c3c;border-radius: 5px;background-color:#fff;font-size:20px;font-size:20px;}
 .delicon{width: 30px;height:30px;text-align: center;color:#f00;line-height:30px;}
 </style>
 <body>
 <div id="wrapper"></div>
 
 
-<button type="button" class="addbutton" onclick="addInput()">
+<button type="button" class="addbutton mgb10" onclick="addInput()">
   <span class="button__text">增加一行</span>
   <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg"><line y2="19" y1="5" x2="12" x1="12"></line><line y2="12" y1="12" x2="19" x1="5"></line></svg></span>
 </button>
 
 <button onclick="calc()" class="d3button">结算</button>
+<button onclick="reset()" class="restebutton">归零</button>
 
   <p id="result" class="result"></p>
   <p>铁15 红10 黄6.8 绿3.4</p>
@@ -114,6 +117,16 @@ str=str+template(v)
         calc()
       }
     })
+    function reset(){
+       tillNow=0
+     wangfugui=[15,10,6.8,3.4]
+     arr_count=Array.from({length:4},(v,k)=>{
+      tillNow++
+      return k+1
+    })
+    render(arr_count)
+    calc()
+    }
     function addInput(){
       tillNow++
       var str=template(tillNow)
