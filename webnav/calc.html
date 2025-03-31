@@ -2,18 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no"/>
   <title>Document</title>
 </head>
 <style>
-  .dengyu{width:200px;height:40px;}
-  .add{width:200px;height:40px;background-color:#38f;color:#fff;border:none;}
-  .result{font-size:20px;color:#38f;}
+*{margin:0;padding:0;}
+html,body{background-color:#fff;}
+body{padding:10px;}
+.yt{display:flex;}
+.yt-ac{align-items:center;}
+.everybox{margin-bottom:10px;}
+.dengyu{width:200px;height:40px;}
+.add{width:200px;height:40px;color:#fff;border:none;background-color:#38f;}
+.result{color:#38f;font-size:20px;}
+.common-ipt{box-sizing:border-box;width:100px;height:30px;padding:5px;border:1px solid #c8c8c8;border-radius: none;font-size:16px;}
+.common-ipt:focus{border:1px solid #38f;outline: none;}
+/*3d按钮*/
+.d3button{position: relative;width: 150px;padding: 1em;transition: 0.2s;letter-spacing: 1px;text-transform: uppercase;opacity: 0.8;color: var(--text-color);border: none;border-radius: 5px;background: var(--bg);box-shadow: #c0392b 0px 7px 2px, #000 0px 8px 5px;font-weight: bold;--bg: #e74c3c;--text-color: #fff;}
+.d3button:hover{opacity: 1;}
+.d3button:active{top: 4px;box-shadow: #c0392b 0px 3px 2px,#000 0px 3px 5px;}
+/*3d按钮end*/
+
+/*增加一行的按钮*/
+.addbutton{position: relative;display: flex;align-items: center;width: 150px;height: 40px;cursor: pointer;border: 1px solid #34974d;background-color: #3aa856;}
+.addbutton, .button__icon, .button__text{transition: all 0.3s;}
+.addbutton .button__text{transform: translateX(30px);color: #fff;font-weight: 600;}
+.addbutton .button__icon{position: absolute;display: flex;align-items: center;justify-content: center;width: 39px;height: 100%;transform: translateX(109px);background-color: #34974d;}
+.addbutton .svg{width: 30px;stroke: #fff;}
+.addbutton:hover{background: #34974d;}
+.addbutton:hover .button__text{color: transparent;}
+.addbutton:hover .button__icon{width: 148px;transform: translateX(0);}
+.addbutton:active .button__icon{background-color: #2e8644;}
+.addbutton:active{border: 1px solid #2e8644;}
+/*增加一行的按钮end*/
+.delicon{width: 30px;height:30px;text-align: center;color:#f00;line-height:30px;}
 </style>
 <body>
 <div id="wrapper"></div>
-<button onclick="calc()" class="dengyu">=</button>
-<button onclick="addInput()" class="add">增加</button>
+
+
+<button type="button" class="addbutton" onclick="addInput()">
+  <span class="button__text">增加一行</span>
+  <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg"><line y2="19" y1="5" x2="12" x1="12"></line><line y2="12" y1="12" x2="19" x1="5"></line></svg></span>
+</button>
+
+<button onclick="calc()" class="d3button">结算</button>
+
   <p id="result" class="result"></p>
   <p>铁15 红10 黄6.8 绿3.4</p>
   <script>
@@ -25,16 +59,16 @@
     })
 
   function template(xuhao){
-    var temp=`<div data-item="${xuhao}">
-      <input type="text" id="ipta${xuhao}">
+    var temp=`<div class="yt yt-ac everybox" data-item="${xuhao}">
+      <input type="text" class="common-ipt" id="ipta${xuhao}" />
   <select name="fuhao${xuhao}" id="fuhao${xuhao}">
     <option value="+">+</option>
     <option value="-">-</option>
     <option value="*" selected>*</option>
     <option value="/">/</option>
   </select>
-  <input type="text" id="iptb${xuhao}" value="${wangfugui[xuhao-1] || ''}">
-  <button data-type="del" data-xuhao="${xuhao}"  id="del${xuhao}">删除</button>
+  <input type="text" class="common-ipt" id="iptb${xuhao}" value="${wangfugui[xuhao-1] || ''}" />
+  <span data-type="del" data-xuhao="${xuhao}"  id="del${xuhao}" class="delicon">✕</span>
   </div>`
   return temp
   }
@@ -44,7 +78,6 @@
     arr_count.forEach((v,k)=>{
 str=str+template(v)
     })
-    
     wrapper.innerHTML=str
   }
   render(arr_count)
