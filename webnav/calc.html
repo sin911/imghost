@@ -21,25 +21,22 @@ body{padding:10px;}
 
 
 /*增加一行的按钮*/
-.addbutton{position: relative;display: flex;align-items: center;width: 150px;height: 40px;cursor: pointer;border: 1px solid #34974d;background-color: #3aa856;}
+.addbutton{position: relative;display: flex;align-items: center;width: 150px;height: 40px;cursor: pointer;border: 1px solid #34974d;background-color: #3aa856;font-size:18px;}
 .addbutton, .button__icon, .button__text{transition: all 0.3s;}
-.addbutton .button__text{transform: translateX(30px);color: #fff;font-weight: 600;}
+.addbutton .button__text{transform: translateX(15px);color: #fff;}
 .addbutton .button__icon{position: absolute;display: flex;align-items: center;justify-content: center;width: 39px;height: 100%;transform: translateX(109px);background-color: #34974d;}
 .addbutton .svg{width: 30px;stroke: #fff;}
-.addbutton:hover{background: #34974d;}
-.addbutton:hover .button__text{color: transparent;}
-.addbutton:hover .button__icon{width: 148px;transform: translateX(0);}
-.addbutton:active .button__icon{background-color: #2e8644;}
-.addbutton:active{border: 1px solid #2e8644;}
+
 /*增加一行的按钮end*/
 /*结算按钮*/
-.d3button{position: relative;width: 150px;padding: 10px;color: var(--text-color);border: 1px solid #e44d42;border-radius: 5px;background: var(--bg);font-size:20px;--bg: #e74c3c;--text-color: #fff;}
+.d3button{position: relative;width: 150px;padding: 15px 10px;color: var(--text-color);border: 1px solid #e44d42;border-radius: 5px;background: var(--bg);font-size:20px;--bg: #e74c3c;--text-color: #fff;}
 .d3button:active{opacity:0.5;}
 /*结算按钮end*/
-.restebutton{box-sizing: border-box;width: 150px;padding: 10px;color:#e74c3c;border:1px solid #e74c3c;border-radius: 5px;background-color:#fff;font-size:20px;font-size:20px;}
+.restebutton{box-sizing: border-box;width: 150px;padding: 15px 10px;color:#e74c3c;border:1px solid #e74c3c;border-radius: 5px;background-color:#fff;font-size:20px;font-size:20px;}
 .delicon{width: 30px;height:30px;text-align: center;color:#f00;line-height:30px;}
 </style>
 <body>
+  <div class="mgb10">铁15 红10 黄6.8 绿3.4</div>
 <div id="wrapper"></div>
 
 
@@ -52,26 +49,33 @@ body{padding:10px;}
 <button onclick="reset()" class="restebutton">归零</button>
 
   <p id="result" class="result"></p>
-  <p>铁15 红10 黄6.8 绿3.4</p>
+
   <script>
-    var tillNow=0
-    var wangfugui=[15,10,6.8,3.4]
-    var arr_count=Array.from({length:4},(v,k)=>{
+    function reset(){
+      tillNow=0
+     wangfugui=[15,10,6.8,3.4,12,4]
+     arr_count=Array.from({length:wangfugui.length},(v,k)=>{
       tillNow++
       return k+1
     })
-
+    render(arr_count)
+    calc()
+    }
+    reset()
   function template(xuhao){
     var temp=`<div class="yt yt-ac everybox" data-item="${xuhao}">
-      <input type="text" type="tel" class="common-ipt" id="ipta${xuhao}" />
+      <input  type="tel" class="common-ipt" id="ipta${xuhao}" />
   <select name="fuhao${xuhao}" id="fuhao${xuhao}">
     <option value="+">+</option>
     <option value="-">-</option>
     <option value="*" selected>*</option>
     <option value="/">/</option>
   </select>
-  <input type="text" type="number" class="common-ipt" id="iptb${xuhao}" value="${wangfugui[xuhao-1] || ''}" />
+  <input  type="number" class="common-ipt" id="iptb${xuhao}" value="${wangfugui[xuhao-1] || ''}" />
+  <span>=</span>
+    <span class="subtotal"></span>
   <span data-type="del" data-xuhao="${xuhao}"  id="del${xuhao}" class="delicon">✕</span>
+
   </div>`
   return temp
   }
@@ -83,7 +87,6 @@ str=str+template(v)
     })
     wrapper.innerHTML=str
   }
-  render(arr_count)
     function calc() {
       var resultNum=[]
       document.querySelectorAll('[data-item]').forEach((v,k)=>{
@@ -100,7 +103,7 @@ str=str+template(v)
         } else if (fuhao == '/') {
           resultNum[k]= Number(num1) / Number(num2);
         }
-        console.log('======resultNum',resultNum);
+        document.querySelectorAll('.subtotal')[k].innerText=resultNum[k]
       })
 
       resultSum=preciseAdd(...resultNum)
@@ -117,16 +120,7 @@ str=str+template(v)
         calc()
       }
     })
-    function reset(){
-       tillNow=0
-     wangfugui=[15,10,6.8,3.4]
-     arr_count=Array.from({length:4},(v,k)=>{
-      tillNow++
-      return k+1
-    })
-    render(arr_count)
-    calc()
-    }
+  
     function addInput(){
       tillNow++
       var str=template(tillNow)
