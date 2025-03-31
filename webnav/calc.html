@@ -60,14 +60,14 @@ body{padding:10px;}
 
   function template(xuhao){
     var temp=`<div class="yt yt-ac everybox" data-item="${xuhao}">
-      <input type="text" class="common-ipt" id="ipta${xuhao}" />
+      <input type="text" type="tel" class="common-ipt" id="ipta${xuhao}" />
   <select name="fuhao${xuhao}" id="fuhao${xuhao}">
     <option value="+">+</option>
     <option value="-">-</option>
     <option value="*" selected>*</option>
     <option value="/">/</option>
   </select>
-  <input type="text" class="common-ipt" id="iptb${xuhao}" value="${wangfugui[xuhao-1] || ''}" />
+  <input type="text" type="number" class="common-ipt" id="iptb${xuhao}" value="${wangfugui[xuhao-1] || ''}" />
   <span data-type="del" data-xuhao="${xuhao}"  id="del${xuhao}" class="delicon">✕</span>
   </div>`
   return temp
