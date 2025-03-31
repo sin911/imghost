@@ -108,6 +108,7 @@ str=str+template(v)
 
       resultSum=preciseAdd(...resultNum)
    document.getElementById('result').innerText=resultSum
+   document.getElementById('result').animate([{opacity: 0,transform:'translateY(-20px)'},{opacity: 1,transform:'translateY(0)'}],{duration: 680})
     }
     document.getElementById('wrapper').addEventListener('click',function(e){
       if(e.target.getAttribute('data-type')=='del'){
