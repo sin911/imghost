@@ -60,6 +60,11 @@ body{padding:10px;}
   </div>
 
   <script>
+    document.getElementById('wrapper').addEventListener('blur', function(event) {
+    if (event.target.tagName.toLowerCase() === 'input') {
+      calc()
+    }
+  }, true); // 使用捕获阶段来监听blur事件
     function reset(){
       tillNow=0
      wangfugui=[15,10,6.8,3.4,12,4]
@@ -98,8 +103,15 @@ body{padding:10px;}
         let num2 = document.getElementById(`iptb${v.dataset.item}`).value;
         let fuhao = document.getElementById(`fuhao${v.dataset.item}`).textContent;
         let result = document.getElementById('result');
+        
+        if([num1,num2].includes('')){
+          resultNum[k]=0
+        document.querySelectorAll('.subtotal')[k].innerText=resultNum[k]
+          return
+        }
+        console.log('======111',111);
         //+-×÷
-        //
+        
         let __tempResult
         if (fuhao == '+') {
           __tempResult=Number(num1) + Number(num2)
@@ -115,7 +127,9 @@ body{padding:10px;}
       })
 
       resultSum=preciseAdd(...resultNum)
-   document.getElementById('result').innerText=resultSum
+      console.log('======resultSum',resultSum);
+   
+   document.getElementById('result').innerText=   isNaN(resultSum)?0:resultSum
    document.getElementById('result').animate([{opacity: 1},{opacity: 0},{opacity: 1}],{duration: 300,iterations:3})
     }
     document.getElementById('wrapper').addEventListener('click',function(e){
@@ -151,6 +165,7 @@ odiv.innerHTML=str
     function preciseAdd(...nums) {
   // 获取所有数的小数位数
   const digits = nums.map(num => {
+    console.log('======num',num);
     const str = num.toString();
     const dotIndex = str.indexOf('.');
     return dotIndex === -1 ? 0 : str.length - dotIndex - 1;
