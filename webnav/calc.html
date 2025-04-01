@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width = device-width, initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no"/>
-  <title>Document</title>
+  <title>王富贵计算器</title>
 </head>
 <style>
 *{margin:0;padding:0;}
@@ -15,7 +15,7 @@ body{padding:10px;}
 .dengyu{width:200px;height:40px;}
 .add{width:200px;height:40px;color:#fff;border:none;background-color:#38f;}
 .result{color:#38f;font-size:60px;}
-.common-ipt{box-sizing:border-box;width:100px;height:30px;padding:5px;border:1px solid #c8c8c8;border-radius: none;font-size:16px;}
+.common-ipt{box-sizing:border-box;width:100px;height:30px;padding:5px;border:1px solid #c8c8c8;border-radius: unset;font-size:16px;}
 .common-ipt:focus{border:1px solid #38f;outline: none;}
 .mgb10{margin-bottom:10px;}
 
@@ -29,26 +29,34 @@ body{padding:10px;}
 
 /*增加一行的按钮end*/
 /*结算按钮*/
-.d3button{position: relative;width: 150px;padding: 15px 10px;color: var(--text-color);border: 1px solid #e44d42;border-radius: 5px;background: var(--bg);font-size:20px;--bg: #e74c3c;--text-color: #fff;}
+.d3button{position: relative;width: 70%;padding: 15px 10px;color: var(--text-color);border: 1px solid #e44d42;border-radius: 5px;background: var(--bg);font-size:20px;--bg: #e74c3c;--text-color: #fff;}
 .d3button:active{opacity:0.5;}
 /*结算按钮end*/
-.restebutton{box-sizing: border-box;width: 150px;padding: 15px 10px;color:#e74c3c;border:1px solid #e74c3c;border-radius: 5px;background-color:#fff;font-size:20px;font-size:20px;}
+.restebutton{box-sizing: border-box;width: 20%;padding: 15px 10px;color:#e74c3c;border:1px solid #e74c3c;border-radius: 5px;background-color:#fff;font-size:20px;font-size:20px;}
 .delicon{width: 30px;height:30px;text-align: center;color:#f00;line-height:30px;}
+.fuhaomask{position:fixed;z-index:9999;top:0;right:0;bottom:0;left:0;display:none;align-items: center;justify-content: center;background-color:#e3e3e3;}
+.fuhaobtn,.fuhaobtnmask{flex-shrink: 0;width:50px;margin:0 5px;text-align:center;border: 1px solid rgba(0,0,0,0);border: 1px solid rgba(0,0,0,0.1);border-radius: 10px;background: #e3edf7;box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7);box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2), inset -4px -4px 6px -1px rgba(255,255,255,0.7), -0.5px -0.5px 0px rgba(255,255,255,1), 0.5px 0.5px 0px rgba(0,0,0,0.15), 0px 12px 10px -10px rgba(0,0,0,0.05);font-size:20px;}
+.fuhaobtnmask{width:60px;font-size:40px;}
 </style>
 <body>
   <div class="mgb10">铁15 红10 黄6.8 绿3.4</div>
 <div id="wrapper"></div>
 
-
 <button type="button" class="addbutton mgb10" onclick="addInput()">
   <span class="button__text">增加一行</span>
   <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg"><line y2="19" y1="5" x2="12" x1="12"></line><line y2="12" y1="12" x2="19" x1="5"></line></svg></span>
 </button>
-
+<div id="result" class="result"></div>
 <button onclick="calc()" class="d3button">结算</button>
 <button onclick="reset()" class="restebutton">归零</button>
 
-  <p id="result" class="result"></p>
+  
+  <div class="fuhaomask" id="fuhaomask">
+    <button class="fuhaobtnmask" data-fuhao="+">+</button>
+    <button class="fuhaobtnmask" data-fuhao="-">-</button>
+<button class="fuhaobtnmask" data-fuhao="×">×</button>
+<button class="fuhaobtnmask" data-fuhao="÷">÷</button>
+  </div>
 
   <script>
     function reset(){
@@ -62,20 +70,15 @@ body{padding:10px;}
     calc()
     }
     reset()
+    //+-×÷
   function template(xuhao){
     var temp=`<div class="yt yt-ac everybox" data-item="${xuhao}">
       <input  type="number" class="common-ipt" id="ipta${xuhao}" />
-  <select name="fuhao${xuhao}" id="fuhao${xuhao}">
-    <option value="+">+</option>
-    <option value="-">-</option>
-    <option value="*" selected>*</option>
-    <option value="/">/</option>
-  </select>
-  <input  type="number" class="common-ipt" id="iptb${xuhao}" value="${wangfugui[xuhao-1] || ''}" />
+  <div id="fuhao${xuhao}" data-xuhao="${xuhao}" class="fuhaobtn">×</div>
+  <input type="number" class="common-ipt" id="iptb${xuhao}" value="${wangfugui[xuhao-1] || ''}" />
   <span>=</span>
     <span class="subtotal"></span>
   <span data-type="del" data-xuhao="${xuhao}"  id="del${xuhao}" class="delicon">✕</span>
-
   </div>`
   return temp
   }
@@ -83,7 +86,7 @@ body{padding:10px;}
     let wrapper = document.getElementById('wrapper')
     var str=''
     arr_count.forEach((v,k)=>{
-str=str+template(v)
+        str=str+template(v)
     })
     wrapper.innerHTML=str
   }
@@ -92,23 +95,26 @@ str=str+template(v)
       document.querySelectorAll('[data-item]').forEach((v,k)=>{
         let num1 = document.getElementById(`ipta${v.dataset.item}`).value;
         let num2 = document.getElementById(`iptb${v.dataset.item}`).value;
-        let fuhao = document.getElementById(`fuhao${v.dataset.item}`).value;
+        let fuhao = document.getElementById(`fuhao${v.dataset.item}`).textContent;
         let result = document.getElementById('result');
+        //+-×÷
+        let __tempResult
         if (fuhao == '+') {
-          resultNum[k]= Number(num1) + Number(num2);
+          __tempResult=Number(num1) + Number(num2)
         } else if (fuhao == '-') {
-          resultNum[k]= Number(num1) - Number(num2);
-        } else if (fuhao == '*') {
-          resultNum[k]=  Number(num1) * Number(num2);
-        } else if (fuhao == '/') {
-          resultNum[k]= Number(num1) / Number(num2);
+          __tempResult=Number(num1) - Number(num2)
+        } else if (fuhao == '×') {
+          __tempResult=Number(num1) * Number(num2)
+        } else if (fuhao == '÷') {
+          __tempResult=Number(num1) / Number(num2)
         }
+        resultNum[k]= Number.isInteger(__tempResult)?__tempResult:toFixedDown(__tempResult,3);
         document.querySelectorAll('.subtotal')[k].innerText=resultNum[k]
       })
 
       resultSum=preciseAdd(...resultNum)
    document.getElementById('result').innerText=resultSum
-   document.getElementById('result').animate([{opacity: 0,transform:'translateY(-20px)'},{opacity: 1,transform:'translateY(0)'}],{duration: 680})
+   document.getElementById('result').animate([{opacity: 1},{opacity: 0},{opacity: 1}],{duration: 300,iterations:3})
     }
     document.getElementById('wrapper').addEventListener('click',function(e){
       if(e.target.getAttribute('data-type')=='del'){
@@ -120,8 +126,18 @@ str=str+template(v)
         e.target.closest('[data-item]').remove()
         calc()
       }
+      if(e.target.classList.contains('fuhaobtn')){
+        document.getElementById('fuhaomask').style.display='flex'
+         document.getElementById('fuhaomask').setAttribute('data-xuhao',e.target.dataset.xuhao)
+      }
     })
-  
+  document.getElementById('fuhaomask').addEventListener('click',function(e){
+    if(e.target.dataset.fuhao){
+      document.getElementById('fuhao'+this.dataset.xuhao).textContent=e.target.dataset.fuhao
+      document.getElementById('fuhaomask').style.display='none'
+      calc()
+    }
+  })
     function addInput(){
       tillNow++
       var str=template(tillNow)
@@ -146,6 +162,11 @@ odiv.innerHTML=str
   const sum = nums.reduce((acc, num) => acc + num * factor, 0);
   return sum / factor;
 }
+function toFixedDown(number, digits) {
+    const factor = Math.pow(10, digits);
+    return Math.floor(number * factor) / factor;
+}
+
   </script>
 </body>
 </html>
