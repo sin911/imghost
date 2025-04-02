@@ -14,7 +14,7 @@ body{padding:10px;}
 .everybox{margin-bottom:10px;}
 .dengyu{width:200px;height:40px;}
 .add{width:200px;height:40px;color:#fff;border:none;background-color:#38f;}
-.result{color:#38f;font-size:60px;}
+.result{width:fit-content;color:#38f;font-size:60px;}
 .common-ipt{box-sizing:border-box;width:100px;height:30px;padding:5px;border:1px solid #c8c8c8;border-radius: unset;font-size:18px;}
 .common-ipt:focus{border:1px solid #38f;outline: none;}
 .subtotal{height:30px;color:#38f;font-size:20px;}
@@ -60,11 +60,6 @@ body{padding:10px;}
   </div>
 
   <script>
-    document.getElementById('wrapper').addEventListener('blur', function(event) {
-    if (event.target.tagName.toLowerCase() === 'input') {
-      calc()
-    }
-  }, true); // 使用捕获阶段来监听blur事件
     function reset(){
       tillNow=0
      wangfugui=[15,10,6.8,3.4,12,4]
@@ -130,7 +125,7 @@ body{padding:10px;}
       console.log('======resultSum',resultSum);
    
    document.getElementById('result').innerText=   isNaN(resultSum)?0:resultSum
-   document.getElementById('result').animate([{opacity: 1},{opacity: 0},{opacity: 1}],{duration: 300,iterations:3})
+   document.getElementById('result').animate([{opacity: 1,transform:'scale(0.9)'},{opacity: 0.7,transform:'scale(1.1)'},{opacity: 1,transform:'scale(1)'}],{duration: 300,iterations:2})
     }
     document.getElementById('wrapper').addEventListener('click',function(e){
       if(e.target.getAttribute('data-type')=='del'){
@@ -147,6 +142,11 @@ body{padding:10px;}
          document.getElementById('fuhaomask').setAttribute('data-xuhao',e.target.dataset.xuhao)
       }
     })
+        document.getElementById('wrapper').addEventListener('blur', function(event) {
+    if (event.target.tagName.toLowerCase() === 'input') {
+      calc()
+    }
+  }, true); // 使用捕获阶段来监听blur事件
   document.getElementById('fuhaomask').addEventListener('click',function(e){
     if(e.target.dataset.fuhao){
       document.getElementById('fuhao'+this.dataset.xuhao).textContent=e.target.dataset.fuhao
