@@ -8,8 +8,12 @@
 <style>
 *{margin:0;padding:0;}
 html,body{background-color:#fff;}
-body{padding:10px;}
+
 .yt{display:flex;}
+.yt-ver{flex-direction: column;}
+.yt-f1{flex:1;}
+.ovauto{overflow: auto;}
+.pd10{padding:10px;}
 .yt-ac{align-items:center;}
 .everybox{margin-bottom:10px;}
 .dengyu{width:200px;height:40px;}
@@ -38,18 +42,30 @@ body{padding:10px;}
 .fuhaomask{position:fixed;z-index:9999;top:0;right:0;bottom:0;left:0;display:none;align-items: center;justify-content: center;background-color:#e3e3e3;}
 .fuhaobtn,.fuhaobtnmask{flex-shrink: 0;width:50px;margin:0 5px;text-align:center;color:#333;border: 1px solid rgba(0,0,0,0);border: 1px solid rgba(0,0,0,0.1);border-radius: 10px;background: #e3edf7;box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7);box-shadow: inset 1px 2px 6px -1px rgba(0,0,0,0.2), inset -4px -4px 6px -1px rgba(255,255,255,0.7), -0.5px -0.5px 0px rgba(255,255,255,1), 0.5px 0.5px 0px rgba(0,0,0,0.15), 0px 12px 10px -10px rgba(0,0,0,0.05);font-size:20px;font-weight: bold;}
 .fuhaobtnmask{width:60px;font-size:40px;}
+.bottomnav{height:164px;}
 </style>
 <body>
+  <div class="yt yt-ver" style="height:100vh">
+    <div class="yt-f1 ovauto">
+<div class="pd10">
   <div class="mgb10">铁15 红10 黄6.8 绿3.4</div>
-<div id="wrapper"></div>
-
-<button type="button" class="addbutton mgb10" onclick="addInput()">
-  <span class="button__text">增加一行</span>
-  <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg"><line y2="19" y1="5" x2="12" x1="12"></line><line y2="12" y1="12" x2="19" x1="5"></line></svg></span>
-</button>
-<div id="result" class="result"></div>
+  <div id="wrapper"></div>
+  <button type="button" class="addbutton mgb10" onclick="addInput()">
+    <span class="button__text">增加一行</span>
+    <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg"><line y2="19" y1="5" x2="12" x1="12"></line><line y2="12" y1="12" x2="19" x1="5"></line></svg></span>
+  </button>
+</div>
+    </div>
+    <div class="bottomnav">
+      <div class="pd10">
+        <div id="result" class="result"></div>
 <button onclick="calc()" class="d3button">结算</button>
 <button onclick="reset()" class="restebutton">归零</button>
+      </div>
+    </div>
+  </div>
+
+
 
   
   <div class="fuhaomask" id="fuhaomask">
