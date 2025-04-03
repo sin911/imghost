@@ -38,11 +38,11 @@ html,body{background-color:#fff;}
 .d3button:active{opacity:0.5;}
 /*结算按钮end*/
 .restebutton{box-sizing: border-box;width: 20%;padding: 15px 10px;color:#e74c3c;border:1px solid #e74c3c;border-radius: 5px;background-color:#fff;font-size:20px;font-size:20px;}
-.delicon{width: 30px;height:30px;text-align: center;color:#f00;line-height:30px;}
+.delicon{width: 24px;height:24px;text-align: center;color:#f00;line-height:30px;}
 .fuhaomask{position:fixed;z-index:9999;top:0;right:0;bottom:0;left:0;display:none;align-items: center;justify-content: center;background-color:#e3e3e3;}
 .fuhaobtn,.fuhaobtnmask{flex-shrink: 0;width:50px;margin:0 5px;text-align:center;color:#333;border: 1px solid rgba(0,0,0,0);border: 1px solid rgba(0,0,0,0.1);border-radius: 10px;background: #e3edf7;box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7);box-shadow: inset 1px 2px 6px -1px rgba(0,0,0,0.2), inset -4px -4px 6px -1px rgba(255,255,255,0.7), -0.5px -0.5px 0px rgba(255,255,255,1), 0.5px 0.5px 0px rgba(0,0,0,0.15), 0px 12px 10px -10px rgba(0,0,0,0.05);font-size:20px;font-weight: bold;}
 .fuhaobtnmask{width:60px;font-size:40px;}
-.bottomnav{height:164px;border-top: 1px solid #c3d7ff;background-color:#fbfbfb;}
+.bottomnav{height:164px;border-top: 1px solid #ffe68a;background-color: #fff9e3;}
 </style>
 <body>
   <div class="yt yt-ver" style="height:100vh">
@@ -95,7 +95,8 @@ html,body{background-color:#fff;}
   <input type="number" class="common-ipt" id="iptb${xuhao}" value="${wangfugui[xuhao-1] || ''}" />
   <span class="denghao">=</span>
     <span class="subtotal"></span>
-  <span data-type="del" data-xuhao="${xuhao}"  id="del${xuhao}" class="delicon">✕</span>
+
+  <div data-type="del" data-xuhao="${xuhao}"  id="del${xuhao}" class="delicon">    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 10v8a1 1 0 01-1 1H7a1 1 0 01-1-1v-8" stroke="#f00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path clip-rule="evenodd" d="M7 5a1 1 0 011-1h8a1 1 0 011 1v2H7V5z" stroke="#f00" stroke-width="1.5" stroke-linejoin="round"/><path d="M10 10v5M14 10v5M4 7h16" stroke="#f00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
   </div>`
   return temp
   }
@@ -120,7 +121,6 @@ html,body{background-color:#fff;}
         document.querySelectorAll('.subtotal')[k].innerText=resultNum[k]
           return
         }
-        console.log('======111',111);
         //+-×÷
         
         let __tempResult
@@ -141,10 +141,10 @@ html,body{background-color:#fff;}
       console.log('======resultSum',resultSum);
    
    document.getElementById('result').innerText=   isNaN(resultSum)?0:resultSum
-   document.getElementById('result').animate([{opacity: 1,transform:'scale(0.9)'},{opacity: 0.7,transform:'scale(1.1)'},{opacity: 1,transform:'scale(1)'}],{duration: 300,iterations:2})
+   document.getElementById('result').animate([{opacity: 1,transform:'scale(0.9)'},{opacity: 0.7,transform:'scale(1.1)'},{opacity: 1,transform:'scale(1)'}],{duration: 300,iterations:3})
     }
     document.getElementById('wrapper').addEventListener('click',function(e){
-      if(e.target.getAttribute('data-type')=='del'){
+      if(e.target.closest('.delicon')?.getAttribute('data-type')=='del'){
         arr_count.findIndex((v,k)=>{
           if(v==e.target.closest('[data-item]').getAttribute('data-item')){
             arr_count.splice(k,1)
@@ -181,7 +181,6 @@ odiv.innerHTML=str
     function preciseAdd(...nums) {
   // 获取所有数的小数位数
   const digits = nums.map(num => {
-    console.log('======num',num);
     const str = num.toString();
     const dotIndex = str.indexOf('.');
     return dotIndex === -1 ? 0 : str.length - dotIndex - 1;
