@@ -99,18 +99,7 @@ var global_data = [
         text: "网易笔记",
         comment: "",
       },
-      {
-        link: "https://snapdrop.net/",
-        favicon: "",
-        text: "局域网传输",
-        comment: "",
-      },
-      {
-        link: "https://bestxtools.zhubai.love/",
-        favicon: "",
-        text: "好工具周刊",
-        comment: "",
-      },
+
       {
         link: "https://www.buzzing.cc/",
         favicon: "",
@@ -234,6 +223,12 @@ var global_data = [
   {
     title: "chatGPT",
     data: [
+      {
+        link: "https://chatgpt.com/",
+        favicon: "",
+        text: "chatgpt官方",
+        comment: "cos163 zhongdu",
+      },
       {
         link: "https://gitee.com/gamepublic/cursor-pro-tool",
         favicon: "",
@@ -1065,6 +1060,12 @@ var global_data = [
         comment: "",
       },
       {
+        link: "https://www.fonts.net.cn/",
+        favicon: "",
+        text: "免注册字体下载",
+        comment: "",
+      },
+      {
         link: "https://www.100font.com/",
         favicon: "",
         text: "100font字体下载",
@@ -1301,6 +1302,12 @@ var global_data = [
         link: "https://arco.design/iconbox/libs",
         favicon: "",
         text: "IconBox",
+        comment: "",
+      },
+      {
+        link: "https://xandemon.github.io/developer-icons/icons/All/",
+        favicon: "",
+        text: "互联网icon集",
         comment: "",
       },
       {
@@ -1692,6 +1699,17 @@ var global_data = [
         link: "https://readdy.ai/home",
         favicon: "",
         text: "readdy",
+        comment: "",
+      }
+    ]
+  },
+  {
+    title: '3d素材',
+    data: [
+      {
+        link: "https://need3d.ru/",
+        favicon: "",
+        text: "need3d",
         comment: "",
       }
     ]
