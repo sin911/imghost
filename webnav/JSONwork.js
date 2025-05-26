@@ -99,23 +99,18 @@ var global_data = [
         text: "网易笔记",
         comment: "",
       },
-      {
-        link: "https://snapdrop.net/",
-        favicon: "",
-        text: "局域网传输",
-        comment: "",
-      },
-      {
-        link: "https://bestxtools.zhubai.love/",
-        favicon: "",
-        text: "好工具周刊",
-        comment: "",
-      },
+
       {
         link: "https://www.buzzing.cc/",
         favicon: "",
         text: "buzz",
         comment: "",
+      },
+      {
+        link: "https://lkssite.vip/",
+        favicon: "",
+        text: "lkssite",
+        comment: ""
       },
       {
         link: "https://home.ctfile.com/#item-files/action-index",
@@ -234,6 +229,12 @@ var global_data = [
   {
     title: "chatGPT",
     data: [
+      {
+        link: "https://chatgpt.com/",
+        favicon: "",
+        text: "chatgpt官方",
+        comment: "cos163 zhongdu",
+      },
       {
         link: "https://gitee.com/gamepublic/cursor-pro-tool",
         favicon: "",
@@ -362,10 +363,10 @@ var global_data = [
     ]
   },
   {
-    title: 'framerMotion',
+    title: '动画库',
     data: [
       {
-        link: "https://www.framer.com/motion/use-time/",
+        link: "https://examples.motion.dev/",
         favicon: "",
         text: "官网",
         comment: "",
@@ -382,6 +383,35 @@ var global_data = [
         text: "中文",
         comment: "",
       },
+      {
+        link: "https://auto-animate.formkit.com/",
+        favicon: "",
+        text: "auto-animate",
+        comment: "",
+      },
+      {
+        link: "https://anime.js.cool/documentation/#seekAnim",
+        favicon: "",
+        text: "AnimeJS",
+        comment: "",
+      }
+    ]
+  },
+  {
+    title: "图转html",
+    data: [
+      {
+        link: "https://v0.dev/chat",
+        favicon: "",
+        text: "vercelDev",
+        comment: "",
+      },
+      {
+        link: "https://readdy.ai/home",
+        favicon: "",
+        text: "图生网页readdy",
+        comment: "",
+      }
     ]
   },
   {
@@ -1065,6 +1095,12 @@ var global_data = [
         comment: "",
       },
       {
+        link: "https://www.fonts.net.cn/",
+        favicon: "",
+        text: "免注册字体下载",
+        comment: "",
+      },
+      {
         link: "https://www.100font.com/",
         favicon: "",
         text: "100font字体下载",
@@ -1301,6 +1337,12 @@ var global_data = [
         link: "https://arco.design/iconbox/libs",
         favicon: "",
         text: "IconBox",
+        comment: "",
+      },
+      {
+        link: "https://xandemon.github.io/developer-icons/icons/All/",
+        favicon: "",
+        text: "互联网icon集",
         comment: "",
       },
       {
@@ -1629,6 +1671,12 @@ var global_data = [
         favicon: "",
         text: "谷歌插件开发",
         comment: ""
+      },
+      {
+        link: "https://www.crosshubs.com/zh/categories",
+        favicon: "",
+        text: "跨境星图",
+        comment: ""
       }
     ],
   },
@@ -1689,9 +1737,21 @@ var global_data = [
         comment: "",
       },
       {
-        link: "https://readdy.ai/home",
+        link: "https://www.awwwards.com/websites/sites_of_the_day/",
         favicon: "",
-        text: "readdy",
+        text: "awwwards获奖",
+        comment: "",
+      }
+
+    ]
+  },
+  {
+    title: '3d素材',
+    data: [
+      {
+        link: "https://need3d.ru/",
+        favicon: "",
+        text: "need3d",
         comment: "",
       }
     ]

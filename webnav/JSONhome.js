@@ -58,34 +58,28 @@ var global_data = [
         comment: '',
       },
       {
-        link: 'https://www.98zhibo.com/nbalx/',
+        link: "https://juwanhezi.com/more/live",
+        favicon: "",
+        text: "影视仓",
+        comment: "备用https://tvbox.wpcoder.cn/#peizhi",
+      },
+      {
+        link: 'https://www.nbaluxiangwu.com/',
         favicon: '',
         text: 'NBA回放',
         comment: '',
       },
       {
-        link: 'https://web.h-red.com/video-replay/',
+        link: 'https://www.tiyuhu.com/nbalx/',
         favicon: '',
-        text: 'nba回放2',
+        text: 'NBA回放2',
         comment: '',
       },
       {
-        link: 'https://www.yoozhibo.net/lanqiu/',
+        link: 'http://www.popozhibo.xyz/match/1',
         favicon: '',
-        text: '优直播',
-        comment: '',
-      },
-      {
-        link: 'https://www.chinataiwan.org/live/lanqiu/nba/',
-        favicon: '',
-        text: '极尽体育',
-        comment: '',
-      },
-      {
-        link: 'https://www.yehuowb.com/',
-        favicon: '',
-        text: '321体育',
-        comment: '',
+        text: '泡泡直播',
+        comment: '备用地址http://www.88kq.net/',
       },
       {
         link: 'https://xzb.live',
@@ -100,15 +94,9 @@ var global_data = [
         comment: '失联fagame188@gmail.com',
       },
       {
-        link: 'http://www.popozhibo.xyz/match/1',
+        link: 'https://www.yehuowb.com/',
         favicon: '',
-        text: '泡泡直播',
-        comment: '',
-      },
-      {
-        link: 'https://www.doozhibo.com/lanqiu/nba/',
-        favicon: '',
-        text: '豆直播',
+        text: '321体育',
         comment: '',
       },
       {
@@ -152,6 +140,12 @@ var global_data = [
         favicon: '',
         text: 'byrut',
         comment: '',
+      },
+      {
+        link: "https://ankergames.net/trending",
+        favicon: "",
+        text: "ankergames",
+        comment: "",
       },
       {
         link: 'https://www.skidrowreloaded.com/',
@@ -433,6 +427,12 @@ var global_data = [
         favicon: "",
         text: "视游社",
         comment: "qq群952430777;",
+      },
+      {
+        link: "https://juwanhezi.com/more/live",
+        favicon: "",
+        text: "影视仓",
+        comment: "肥猫源https://tvbox.wpcoder.cn/#peizhi",
       }
 
     ],
