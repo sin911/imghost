@@ -48,7 +48,8 @@ html,body{background-color:#fff;}
   <div class="yt yt-ver" style="height:100vh">
     <div class="yt-f1 ovauto">
 <div class="pd10">
-  <div class="mgb10">铁15 红10 黄6.8 绿3.4</div>
+  <div class="mgb10"><span style="color:#333">铁14.96</span> <span style="color:#f00">红10.2</span> <span style="color:#CCA300">黄6.8</span> <span style="color:green">绿3.4</span></div>
+  
   <div id="wrapper"></div>
   <button type="button" class="addbutton mgb10" onclick="addInput()">
     <span class="button__text">增加一行</span>
@@ -78,7 +79,7 @@ html,body{background-color:#fff;}
   <script>
     function reset(){
       tillNow=0
-     wangfugui=[15,10,6.8,3.4,12,4]
+     wangfugui=[14.96,10.2,6.8,3.4,12,4]
      arr_count=Array.from({length:wangfugui.length},(v,k)=>{
       tillNow++
       return k+1
