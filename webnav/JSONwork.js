@@ -1071,6 +1071,12 @@ var global_data = [
         text: "单选多选生成器",
         comment: "",
       },
+      {
+        link: "https://webaim.org/resources/contrastchecker/",
+        favicon: "",
+        text: "视觉合理化检测",
+        comment: "",
+      }
     ],
   },
   {
