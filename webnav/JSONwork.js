@@ -1018,6 +1018,12 @@ var global_data = [
     title: "工具箱",
     data: [
       {
+        link: "https://easingwizard.com/",
+        favicon: "",
+        text: "动画曲线",
+        comment: "",
+      },
+      {
         link: "https://uiverse.io/spotlight",
         favicon: "",
         text: "海量css特效",
