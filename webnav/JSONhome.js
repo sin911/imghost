@@ -433,6 +433,12 @@ var global_data = [
         favicon: "",
         text: "影视仓",
         comment: "肥猫源https://tvbox.wpcoder.cn/#peizhi",
+      },
+      {
+        link: "https://1319d997.libretv-cgp.pages.dev/",
+        favicon: "",
+        text: "libretv",
+        comment: "基于cloudflare搭建",
       }
 
     ],
