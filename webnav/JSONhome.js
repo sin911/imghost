@@ -429,18 +429,11 @@ var global_data = [
         comment: "qq群952430777;",
       },
       {
-        link: "https://juwanhezi.com/more/live",
+        link: "https://juwanhezi.com/other/jsonlist",
         favicon: "",
         text: "影视仓",
-        comment: "肥猫源https://tvbox.wpcoder.cn/#peizhi",
-      },
-      {
-        link: "https://1319d997.libretv-cgp.pages.dev/",
-        favicon: "",
-        text: "libretv",
-        comment: "基于cloudflare搭建",
+        comment: "直播源https://juwanhezi.com/more/live肥猫源https://tvbox.wpcoder.cn/#peizhi",
       }
-
     ],
   },
   {
@@ -513,6 +506,12 @@ var global_data = [
         text: '终末武神',
         comment: '失联libvio@outlook.com',
       },
+      {
+        link: 'https://1319d997.libretv-cgp.pages.dev/',
+        favicon: '',
+        text: 'libretv',
+        comment: '基于cloudflare',
+      }
     ],
   },
   {

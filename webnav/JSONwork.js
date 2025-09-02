@@ -820,6 +820,12 @@ var global_data = [
         favicon: "",
         text: "视差滚动",
         comment: "",
+      },
+      {
+        link: "https://swiperjs.com/react",
+        favicon: "",
+        text: "swiperjs",
+        comment: "",
       }
     ],
   },
@@ -1475,7 +1481,7 @@ var global_data = [
         link: "https://www.backblaze.com/",
         favicon: "",
         text: "blackblaze",
-        comment: "cos163asd4",
+        comment: "cos163 zxcvM61234!@#$谷歌浏览器密码库里有",
       },
       {
         link: "https://www.cloudflare-cn.com/",
