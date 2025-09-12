@@ -236,12 +236,6 @@ var global_data = [
         comment: "cos163 zhongdu",
       },
       {
-        link: "https://gitee.com/gamepublic/cursor-pro-tool",
-        favicon: "",
-        text: "cursor账号",
-        comment: "",
-      },
-      {
         link: "https://yuanbao.tencent.com/chat",
         favicon: "",
         text: "腾讯元宝",
@@ -254,21 +248,9 @@ var global_data = [
         comment: "",
       },
       {
-        link: "https://chatgpt.dairoot.cn/",
-        favicon: "",
-        text: "chatGPT",
-        comment: "",
-      },
-      {
-        link: "https://aicnn.cn/oaifree",
-        favicon: "",
-        text: "chatGPT",
-        comment: "",
-      },
-      {
         link: "https://copilot.tencent.com/chat",
         favicon: "",
-        text: "腾讯AI代码",
+        text: "腾讯CodeBuddy",
         comment: "",
       },
       {
@@ -283,12 +265,7 @@ var global_data = [
         text: "自建GPT",
         comment: "",
       },
-      {
-        link: "https://free.opao.xyz/list",
-        favicon: "",
-        text: "chatGPT",
-        comment: "",
-      },
+
       {
         link: "https://chat.openai.com/",
         favicon: "",
@@ -301,12 +278,7 @@ var global_data = [
         text: "devv.ai",
         comment: "",
       },
-      {
-        link: "https://yiyan.baidu.com/",
-        favicon: "",
-        text: "文心一言",
-        comment: "",
-      },
+
       {
         link: "https://gitclone.com/aiit/chat/",
         favicon: "",
@@ -322,10 +294,21 @@ var global_data = [
       {
         link: "https://top.aibase.com/",
         favicon: "",
-        text: "aibase",
+        text: "发现AI产品",
         comment: "",
       }
     ],
+  },
+  {
+    title: '数据库',
+    data: [
+      {
+        link: "https://help.aliyun.com/zh/analyticdb/analyticdb-for-postgresql/user-guide/supabase/",
+        favicon: "",
+        text: "阿里云Supabase",
+        comment: "",
+      }
+    ]
   },
   {
     title: 'chrome开发',
