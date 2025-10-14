@@ -303,6 +303,12 @@ var global_data = [
     title: '数据库',
     data: [
       {
+        link: "https://supabase.com/",
+        favicon: "",
+        text: "Supabase",
+        comment: "cos@163.com和zx..nm26",
+      },
+      {
         link: "https://help.aliyun.com/zh/analyticdb/analyticdb-for-postgresql/user-guide/supabase/",
         favicon: "",
         text: "阿里云Supabase",
