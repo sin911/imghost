@@ -242,6 +242,12 @@ var global_data = [
         comment: "",
       },
       {
+        link: "https://dakou.iflow.cn/chat/",
+        favicon: "",
+        text: "阿里搭叩",
+        comment: "",
+      },
+      {
         link: "https://chatgptplus.cn/",
         favicon: "",
         text: "chatGPT",
