@@ -9,6 +9,12 @@ var global_data = [
         comment: "抽屉的13175164515-zxcvbnm5+1无大写联系邮箱415791939@qq.com;",
       },
       {
+        link: "https://www.acai365.com/ac_jn_cms/login/index/",
+        favicon: "",
+        text: "新锦囊后台",
+        comment: "test@example.com password",
+      },
+      {
         link: " https://www.n.cn/",
         favicon: "",
         text: "纳米搜索",
@@ -35,7 +41,7 @@ var global_data = [
       {
         link: "https://www.theblockbeats.info/",
         favicon: "",
-        text: "锁心",
+        text: "blockbeat",
         comment: "",
       },
       {
@@ -141,6 +147,12 @@ var global_data = [
         favicon: "",
         text: "阿里妈妈",
         comment: "",
+      },
+      {
+        link: "https://segmentfault.com/u/pc120/questions",
+        favicon: "",
+        text: "思否",
+        comment: "miuqi002"
       }
     ],
   },
