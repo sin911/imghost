@@ -408,6 +408,12 @@ var global_data = [
     title: "图转html",
     data: [
       {
+        link: "https://bolt.new/",
+        favicon: "",
+        text: "blot",
+        comment: "用github登录",
+      },
+      {
         link: "https://v0.dev/chat",
         favicon: "",
         text: "vercelDev",
