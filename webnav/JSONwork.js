@@ -254,6 +254,12 @@ var global_data = [
         comment: "",
       },
       {
+        link: "https://www.kimi.com/",
+        favicon: "",
+        text: "kimi",
+        comment: "",
+      },
+      {
         link: "https://dakou.iflow.cn/chat/",
         favicon: "",
         text: "阿里搭叩",
@@ -281,13 +287,6 @@ var global_data = [
         link: "https://github.com/dairoot/ChatGPT-Mirror",
         favicon: "",
         text: "自建GPT",
-        comment: "",
-      },
-
-      {
-        link: "https://chat.openai.com/",
-        favicon: "",
-        text: "chatGPT",
         comment: "",
       },
       {
