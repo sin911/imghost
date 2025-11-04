@@ -1,16 +1,22 @@
 
-document.getElementById('ipt_text').onkeydown = function (e) {
-  // if(e.ctrlKey && e.keyCode===13){
-  //     window.location.href="https://xilesou.hk.gg363.site/search?q="+this.value
-  // }
-  if (e.keyCode === 13) {
-    window.open("https://baidu.com/s?wd=" + this.value, '_blank')
+document.getElementById('ipt_text').onkeydown = async function (e) {
+  if (e.ctrlKey && e.key === 'Enter') {
+    // window.open("https://www.baidu.com/s?wd=" + this.value, '_blank')
+    var TABID = await getCurrentTab()
+    chrome.tabs.create({ "url": "https://www.baidu.com/s?wd=" + this.value });
+    chrome.tabs.remove(TABID);
+  }
+  if (e.key === 'Enter') {
+    //window.open("https://www4.bing.com/search?q=" + this.value, '_blank');
+    var TABID = await getCurrentTab()
+    chrome.tabs.create({ "url": "https://www4.bing.com/search?q=" + this.value });
+    chrome.tabs.remove(TABID);
   }
 }
 document.getElementById('btn_baidu').onclick = function (e) {
   var _val = document.getElementById('ipt_text').value
-  if (_val) window.open("https://baidu.com/s?wd=" + _val, '_blank');
-  else window.open("https://baidu.com/", '_blank');
+  if (_val) window.open("https://www.baidu.com/s?wd=" + _val, '_blank');
+  else window.open("https://www.baidu.com/", '_blank');
 }
 
 document.getElementById('btn_bing').onclick = function (e) {

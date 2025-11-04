@@ -1,9 +1,9 @@
-document.getElementById('ipt_text').onkeydown = function (e) {
-  // if(e.ctrlKey && e.keyCode===13){
-  //     window.location.href="https://xilesou.hk.gg363.site/search?q="+this.value
-  // }
-  if (e.keyCode === 13) {
-    window.open("https://www4.bing.com/search?q=" + this.value, '_blank')
+document.getElementById('ipt_text').onkeydown = async function (e) {
+  if (e.key === 'Enter') {
+    var TABID = await getCurrentTab()
+    chrome.tabs.create({ "url": "https://www4.bing.com/search?q=" + this.value });
+    chrome.tabs.remove(TABID);
+    //window.open("https://www4.bing.com/search?q=" + this.value, '_blank')
   }
 }
 document.getElementById('btn_search1').onclick = function (e) {
