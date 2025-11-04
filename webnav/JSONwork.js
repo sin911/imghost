@@ -595,6 +595,13 @@ var global_data = [
         comment: "miuqi02asd",
       },
       {
+        link: "https://heycatcin.sentry.io/issues/",
+        favicon: "",
+        text: "sentry",
+        comment: "github",
+      },
+
+      {
         link: "https://www.fundebug.com/",
         favicon: "https://www.fundebug.com/favicon.ico",
         text: "fundebug",
