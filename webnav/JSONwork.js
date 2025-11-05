@@ -598,7 +598,7 @@ var global_data = [
         link: "https://heycatcin.sentry.io/issues/",
         favicon: "",
         text: "sentry",
-        comment: "github",
+        comment: "用github",
       },
 
       {
@@ -1507,6 +1507,12 @@ var global_data = [
         favicon: "",
         text: "cloudflare",
         comment: "cos163 asd4$",
+      },
+      {
+        link: " https://leapcell.io/",
+        favicon: "",
+        text: "leapcell",
+        comment: "用github",
       },
       {
         link: "https://portal.qiniu.com/kodo/overview",
