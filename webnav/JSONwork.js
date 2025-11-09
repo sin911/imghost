@@ -153,6 +153,12 @@ var global_data = [
         favicon: "",
         text: "思否",
         comment: "miuqi002"
+      },{
+        link: "https://xuc.xi-xu.me/",
+        favicon: "",
+        text: "全镜像加速",
+        comment: "github中xget仓库"
+        
       }
     ],
   },
