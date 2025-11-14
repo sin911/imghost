@@ -274,12 +274,6 @@ var global_data = [
         comment: '',
       },
       {
-        link: 'http://ysxjjkl.souyisou.top/',
-        favicon: '',
-        text: '数据搜索',
-        comment: '',
-      },
-      {
         link: 'https://yunpan1.cc/',
         favicon: '',
         text: '懒盘搜索',
@@ -298,24 +292,14 @@ var global_data = [
         comment: ''
       },
 
-      {
-        link: 'https://www.xinjuc.com',
-        favicon: '',
-        text: '新综艺',
-        comment: '',
-      },
+
       {
         link: 'http://www.dygangs.me/',
         favicon: '',
         text: '电影港',
         comment: '',
       },
-      {
-        link: 'https://www.z2pyw.com/',
-        favicon: '',
-        text: 'za片源网',
-        comment: '',
-      },
+
       {
         link: 'https://panothers.com/',
         favicon: '',
@@ -334,12 +318,7 @@ var global_data = [
         text: '采集站',
         comment: '主域名:yzzy.tv hdzyk.com(备用网址): 1080zyk1.com 至 1080zyk15.com',
       },
-      {
-        link: 'https://www.dy2160.com/',
-        favicon: '',
-        text: 'dy2160',
-        comment: '',
-      },
+
       {
         link: 'https://www.rrdynb.com/index.html',
         favicon: '',
@@ -351,7 +330,7 @@ var global_data = [
         link: 'https://www.butailing.com/',
         favicon: '',
         text: '不太灵',
-        comment: 'www.0bt0.com   www.1bt0.com   www.2bt0.com   www.3bt0.com   www.4bt0.com   www.5bt0.com   www.6bt0.com   www.7bt0.com   www.8bt0.com   www.9bt0.com',
+        comment: 'www.0bt0.com www.1bt0.com www.2bt0.com www.3bt0.com www.4bt0.com www.5bt0.com www.6bt0.com www.7bt0.com www.8bt0.com www.9bt0.com'
       },
       {
         link: 'http://www.66ys.co/',
@@ -360,12 +339,7 @@ var global_data = [
         comment: '',
       },
 
-      {
-        link: 'https://cupfox.app/',
-        favicon: 'https://i.loli.net/2018/08/04/5b65b28a65aae.png',
-        text: '咖啡狐',
-        comment: '',
-      },
+
       {
         link: 'https://www.993dy.com/',
         favicon: 'https://www.993dy.com/favicon.ico',
@@ -396,12 +370,7 @@ var global_data = [
         text: '荐片播放器',
         comment: 'www.jianpian9.com',
       },
-      {
-        link: 'https://www.domp4.cc/',
-        favicon: '',
-        text: 'domp4',
-        comment: '',
-      },
+
 
       {
         link: 'https://subhd.tv/',
@@ -417,18 +386,6 @@ var global_data = [
         comment: '',
       },
       {
-        link: 'https://www.yxdju.cc/',
-        favicon: '',
-        text: '一休短剧',
-        comment: '',
-      },
-      {
-        link: "http://s9z.top/h5",
-        favicon: "",
-        text: "视游社",
-        comment: "qq群952430777;",
-      },
-      {
         link: "https://juwanhezi.com/other/jsonlist",
         favicon: "",
         text: "影视仓",
@@ -440,53 +397,27 @@ var global_data = [
     title: '在线',
     data: [
       {
-        link: 'https://yingheapp.com/',
+        link: 'https://myripon.com/',
+        favicon: '',
+        text: '忘忧草',
+        comment: '',
+      },
+      {
+        link: 'https://yinghezhinan.com/',
         favicon: '',
         text: '硬核指南',
         comment: '备用域名https://硬核指南.com 失联yingheapp#hotmail.com',
       },
-      {
-        link: 'https://lkvod.me/',
-        favicon: '',
-        text: '来看点播',
-        comment: '',
-      },
-      {
-        link: 'https://www.hdmoli.pro/',
-        favicon: '',
-        text: 'hdmoli',
-        comment: '',
-      },
+
       {
         link: 'https://pianyuan.org/',
         favicon: '',
         text: 'pianyuan',
         comment: 'miuqi2@163 as4',
       },
-      {
-        link: 'https://www.ysgc.fun/',
-        favicon: '',
-        text: '影视工厂',
-        comment: '备用https://ysgcapp.com/ http://3443.tv',
-      },
-      {
-        link: 'https://ddys.tv',
-        favicon: '',
-        text: 'ddrk',
-        comment: '',
-      },
-      {
-        link: 'http://www.loldytt.org/',
-        favicon: '',
-        text: '电影天堂',
-        comment: '',
-      },
-      {
-        link: 'https://www.lgyy.vip/',
-        favicon: '',
-        text: '蓝光影院',
-        comment: '备用www.lgyy.vip和6446.tv',
-      },
+
+
+
       {
         link: 'http://klyingshi.vip/',
         favicon: '',
