@@ -9,6 +9,13 @@ var global_data = [
         comment: "抽屉的13175164515-zxcvbnm5+1无大写联系邮箱415791939@qq.com;",
       },
       {
+        link: "https://www.reddit.com/",
+        favicon: "",
+        text: "reddit",
+        comment: "",
+
+      },
+      {
         link: "https://www.acai365.com/ac_jn_cms/login/index/",
         favicon: "",
         text: "新锦囊后台",
@@ -153,12 +160,12 @@ var global_data = [
         favicon: "",
         text: "思否",
         comment: "miuqi002"
-      },{
+      }, {
         link: "https://xuc.xi-xu.me/",
         favicon: "",
         text: "全镜像加速",
         comment: "github中xget仓库"
-        
+
       }
     ],
   },
