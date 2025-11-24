@@ -413,6 +413,12 @@ var global_data = [
         favicon: "",
         text: "AnimeJS",
         comment: "",
+      },
+      {
+        link: "https://www.reactbits.dev/components/elastic-slider",
+        favicon: "",
+        text: "reactbits",
+        comment: "",
       }
     ]
   },
