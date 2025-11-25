@@ -12,7 +12,7 @@ var global_data = [
         link: "https://www.reddit.com/",
         favicon: "",
         text: "reddit",
-        comment: "",
+        comment: "cosqe4",
 
       },
       {
