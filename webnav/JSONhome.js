@@ -88,15 +88,15 @@ var global_data = [
         comment: '',
       },
       {
-        link: 'https://www.956001.tv/',
+        link: 'https://www.74001.tv/',
         favicon: '',
         text: '956体育',
         comment: '失联fagame188@gmail.com',
       },
       {
-        link: 'https://www.yehuowb.com/',
+        link: 'https://sport.hao86.com/lanqiu/nba/match/',
         favicon: '',
-        text: '321体育',
+        text: 'hao86',
         comment: '',
       },
       {

@@ -46,17 +46,18 @@ var global_data = [
         comment: "",
       },
       {
-        link: "https://www.theblockbeats.info/",
-        favicon: "",
-        text: "blockbeat",
-        comment: "",
-      },
-      {
         link: "http://quote.eastmoney.com/zixuan/?from=home",
         favicon: "http://quote.eastmoney.com/favicon.ico",
         text: "东方财富",
         comment: "miuqi002asd-weibo",
       },
+      {
+        link: "https://www.theblockbeats.info/",
+        favicon: "",
+        text: "blockbeat",
+        comment: "",
+      },
+
       {
         link: "https://upsort.com/s/pan",
         favicon: "https://upsort.com/image/favicon.ico",
@@ -1461,13 +1462,7 @@ var global_data = [
         text: "css手册",
         comment: "",
       },
-      {
-        link: "https://www.sucaihuo.com/login.html",
-        favicon:
-          "https://ossali.sucaihuo.com/sucaihuo/Public/images/favicon.ico",
-        text: "素材火",
-        comment: "miuqi002asd",
-      },
+
       {
         link: " https://scrollrevealjs.org/",
         favicon: "",
