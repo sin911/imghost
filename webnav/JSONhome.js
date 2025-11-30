@@ -64,15 +64,27 @@ var global_data = [
         comment: "备用https://tvbox.wpcoder.cn/#peizhi",
       },
       {
-        link: 'https://www.nbaluxiangwu.com/',
+        link: 'https://www.tiyuhu.com/nbalx/',
         favicon: '',
         text: 'NBA回放',
         comment: '',
       },
       {
-        link: 'https://www.tiyuhu.com/nbalx/',
+        link: 'https://sport.hao86.com/lanqiu/nba/match/',
         favicon: '',
-        text: 'NBA回放2',
+        text: '好体育',
+        comment: '',
+      },
+      {
+        link: 'https://www.ds-qq.com/NBA/',
+        favicon: '',
+        text: '袋鼠',
+        comment: '',
+      },
+      {
+        link: 'https://sport.hao86.com/lanqiu/nba/match/',
+        favicon: '',
+        text: 'hao86',
         comment: '',
       },
       {
@@ -82,33 +94,9 @@ var global_data = [
         comment: '备用地址http://www.88kq.net/',
       },
       {
-        link: 'https://xzb.live',
-        favicon: '',
-        text: '新直播',
-        comment: '',
-      },
-      {
-        link: 'https://www.74001.tv/',
-        favicon: '',
-        text: '956体育',
-        comment: '失联fagame188@gmail.com',
-      },
-      {
-        link: 'https://sport.hao86.com/lanqiu/nba/match/',
-        favicon: '',
-        text: 'hao86',
-        comment: '',
-      },
-      {
         link: 'https://tv.cctv.com/live/cctv5/?site=1',
         favicon: '',
         text: 'cctv5',
-        comment: ''
-      },
-      {
-        link: 'https://www.jytv600.com/live?id=63621393',
-        favicon: '',
-        text: '鲸鱼直播',
         comment: ''
       },
       {
