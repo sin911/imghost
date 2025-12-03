@@ -15,6 +15,12 @@ var global_data = [
         comment: "",
       },
       {
+        link: "https://trustmrr.com/",
+        favicon: "",
+        text: "TrustMRR",
+        comment: "",
+      },
+      {
         link: "https://www.reddit.com/",
         favicon: "",
         text: "reddit",
