@@ -9,11 +9,16 @@ var global_data = [
         comment: "抽屉的13175164515-zxcvbnm5+1无大写联系邮箱415791939@qq.com;",
       },
       {
+        link: "https://dict.thinktrader.net/innerApi/trading_function.html?id=TB5IbM",
+        favicon: "",
+        text: "迈投知识库",
+        comment: "",
+      },
+      {
         link: "https://www.reddit.com/",
         favicon: "",
         text: "reddit",
         comment: "cosqe4",
-
       },
       {
         link: "https://www.acai365.com/ac_jn_cms/login/index/",
