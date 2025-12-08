@@ -45,6 +45,12 @@ var global_data = [
         comment: "",
       },
       {
+        link: "http://quote.eastmoney.com/zixuan/?from=home",
+        favicon: "http://quote.eastmoney.com/favicon.ico",
+        text: "东方财富",
+        comment: "miuqi002asd-weibo",
+      },
+      {
         link: "https://top.baidu.com/board?tab=realtime",
         favicon: "",
         text: "百度热榜",
@@ -56,12 +62,7 @@ var global_data = [
         text: "北向资金",
         comment: "",
       },
-      {
-        link: "http://quote.eastmoney.com/zixuan/?from=home",
-        favicon: "http://quote.eastmoney.com/favicon.ico",
-        text: "东方财富",
-        comment: "miuqi002asd-weibo",
-      },
+
 
       {
         link: " http://img.acai365.com/upeaebaa9dd479456d61e8aea862e3cd67.html",
