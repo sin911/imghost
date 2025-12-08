@@ -17,7 +17,7 @@ var global_data = [
       {
         link: "https://trustmrr.com/",
         favicon: "",
-        text: "TrustMRR",
+        text: "TrustMRR创意",
         comment: "",
       },
       {
@@ -31,12 +31,6 @@ var global_data = [
         favicon: "",
         text: "新锦囊后台",
         comment: "test@example.com password",
-      },
-      {
-        link: " https://www.n.cn/",
-        favicon: "",
-        text: "纳米搜索",
-        comment: "",
       },
       {
         link: "https://quickref.me/zh-CN/docs/react.html",
@@ -57,24 +51,18 @@ var global_data = [
         comment: "",
       },
       {
-        link: "http://quote.eastmoney.com/zixuan/?from=home",
-        favicon: "http://quote.eastmoney.com/favicon.ico",
-        text: "东方财富",
-        comment: "miuqi002asd-weibo",
-      },
-      {
-        link: "https://www.theblockbeats.info/",
-        favicon: "",
-        text: "blockbeat",
-        comment: "",
-      },
-
-      {
         link: "https://upsort.com/s/pan",
         favicon: "https://upsort.com/image/favicon.ico",
         text: "北向资金",
         comment: "",
       },
+      {
+        link: "http://quote.eastmoney.com/zixuan/?from=home",
+        favicon: "http://quote.eastmoney.com/favicon.ico",
+        text: "东方财富",
+        comment: "miuqi002asd-weibo",
+      },
+
       {
         link: " http://img.acai365.com/upeaebaa9dd479456d61e8aea862e3cd67.html",
         favicon: "",
@@ -170,14 +158,13 @@ var global_data = [
       {
         link: "https://segmentfault.com/u/pc120/questions",
         favicon: "",
-        text: "思否",
+        text: "思否pc120",
         comment: "miuqi002"
       }, {
         link: "https://xuc.xi-xu.me/",
         favicon: "",
         text: "全镜像加速",
         comment: "github中xget仓库"
-
       }
     ],
   },

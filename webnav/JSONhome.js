@@ -76,22 +76,16 @@ var global_data = [
         comment: '',
       },
       {
-        link: 'https://www.ds-qq.com/NBA/',
-        favicon: '',
-        text: '袋鼠',
-        comment: '',
-      },
-      {
-        link: 'https://sport.hao86.com/lanqiu/nba/match/',
-        favicon: '',
-        text: 'hao86',
-        comment: '',
-      },
-      {
         link: 'http://www.popozhibo.xyz/match/1',
         favicon: '',
         text: '泡泡直播',
         comment: '备用地址http://www.88kq.net/',
+      },
+      {
+        link: 'https://www.ds-qq.com/NBA/',
+        favicon: '',
+        text: '袋鼠',
+        comment: '',
       },
       {
         link: 'https://tv.cctv.com/live/cctv5/?site=1',
