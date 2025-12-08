@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no"/>
+  <title>王富贵计算器</title>
+</head>
+<style>
+*{margin:0;padding:0;}
+html,body{background-color:#fff;}
+
+.yt{display:flex;}
+.yt-ver{flex-direction: column;}
+.yt-f1{flex:1;}
+.ovauto{overflow: auto;}
+.pd10{padding:10px;}
+.yt-ac{align-items:center;}
+.everybox{margin-bottom:10px;}
+.dengyu{width:200px;height:40px;}
+.add{width:200px;height:40px;color:#fff;border:none;background-color:#38f;}
+.result{width:fit-content;color:#aa6900;font-size:60px;}
+.common-ipt{box-sizing:border-box;width:100px;height:30px;padding:5px;border:1px solid #c8c8c8;border-radius: unset;font-size:18px;}
+.common-ipt:focus{border:1px solid #38f;outline: none;}
+.subtotal{height:30px;color:#38f;font-size:20px;}
+.denghao{height:30px;margin:0 5px;font-size:20px;}
+.mgb10{margin-bottom:10px;}
+
+
+/*增加一行的按钮*/
+.addbutton{position: relative;display: flex;align-items: center;width: 150px;height: 40px;cursor: pointer;border: 1px solid #34974d;background-color: #3aa856;font-size:18px;}
+.addbutton, .button__icon, .button__text{transition: all 0.3s;}
+.addbutton .button__text{transform: translateX(15px);color: #fff;}
+.addbutton .button__icon{position: absolute;display: flex;align-items: center;justify-content: center;width: 39px;height: 100%;transform: translateX(109px);background-color: #34974d;}
+.addbutton .svg{width: 30px;stroke: #fff;}
+/*增加一行的按钮end*/
+/*结算按钮*/
+.d3button{position: relative;width: 75%;padding: 15px 10px;color: var(--text-color);border: 1px solid #e44d42;border-radius: 5px;background: var(--bg);font-size:20px;--bg: #e74c3c;--text-color: #fff;}
+.d3button:active{opacity:0.5;}
+/*结算按钮end*/
+.restebutton{box-sizing: border-box;width: 20%;padding: 15px 10px;color:#e74c3c;border:1px solid #e74c3c;border-radius: 5px;background-color:#fff;font-size:20px;font-size:20px;}
+.delicon{width: 24px;height:24px;text-align: center;color:#f00;line-height:30px;}
+.fuhaomask{position:fixed;z-index:9999;top:0;right:0;bottom:0;left:0;display:none;align-items: center;justify-content: center;background-color:#e3e3e3;}
+.fuhaobtn,.fuhaobtnmask{flex-shrink: 0;width:50px;margin:0 5px;text-align:center;color:#333;border: 1px solid rgba(0,0,0,0);border: 1px solid rgba(0,0,0,0.1);border-radius: 10px;background: #e3edf7;box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7);box-shadow: inset 1px 2px 6px -1px rgba(0,0,0,0.2), inset -4px -4px 6px -1px rgba(255,255,255,0.7), -0.5px -0.5px 0px rgba(255,255,255,1), 0.5px 0.5px 0px rgba(0,0,0,0.15), 0px 12px 10px -10px rgba(0,0,0,0.05);font-size:20px;font-weight: bold;}
+.fuhaobtnmask{width:60px;font-size:40px;}
+.bottomnav{height:164px;border-top: 1px solid #ffe68a;background-color: #fff9e3;}
+</style>
+<body>
+  <div class="yt yt-ver" style="height:100vh">
+    <div class="yt-f1 ovauto">
+<div class="pd10">
+  <div class="mgb10">铁15 红10 黄6.8 绿3.4</div>
+  <div id="wrapper"></div>
+  <button type="button" class="addbutton mgb10" onclick="addInput()">
+    <span class="button__text">增加一行</span>
+    <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg"><line y2="19" y1="5" x2="12" x1="12"></line><line y2="12" y1="12" x2="19" x1="5"></line></svg></span>
+  </button>
+</div>
+    </div>
+    <div class="bottomnav">
+      <div class="pd10">
+        <div id="result" class="result"></div>
+<button onclick="calc()" class="d3button">结算</button>
+<button onclick="reset()" class="restebutton">归零</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+  <div class="fuhaomask" id="fuhaomask">
+    <button class="fuhaobtnmask" data-fuhao="+">+</button>
+    <button class="fuhaobtnmask" data-fuhao="-">-</button>
+<button class="fuhaobtnmask" data-fuhao="×">×</button>
+<button class="fuhaobtnmask" data-fuhao="÷">÷</button>
+  </div>
+
+  <script>
+    function reset(){
+      tillNow=0
+     wangfugui=[15,10,6.8,3.4,12,4]
+     arr_count=Array.from({length:wangfugui.length},(v,k)=>{
+      tillNow++
+      return k+1
+    })
+    render(arr_count)
+    calc()
+    }
+    reset()
+    //+-×÷
+  function template(xuhao){
+    var temp=`<div class="yt yt-ac everybox" data-item="${xuhao}">
+      <input  type="number" class="common-ipt" id="ipta${xuhao}" />
+  <div id="fuhao${xuhao}" data-xuhao="${xuhao}" class="fuhaobtn">×</div>
+  <input type="number" class="common-ipt" id="iptb${xuhao}" value="${wangfugui[xuhao-1] || ''}" />
+  <span class="denghao">=</span>
+    <span class="subtotal"></span>
+
+  <div data-type="del" data-xuhao="${xuhao}"  id="del${xuhao}" class="delicon">    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 10v8a1 1 0 01-1 1H7a1 1 0 01-1-1v-8" stroke="#f00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path clip-rule="evenodd" d="M7 5a1 1 0 011-1h8a1 1 0 011 1v2H7V5z" stroke="#f00" stroke-width="1.5" stroke-linejoin="round"/><path d="M10 10v5M14 10v5M4 7h16" stroke="#f00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+  </div>`
+  return temp
+  }
+  function render(arr){
+    let wrapper = document.getElementById('wrapper')
+    var str=''
+    arr_count.forEach((v,k)=>{
+        str=str+template(v)
+    })
+    wrapper.innerHTML=str
+  }
+    function calc() {
+      var resultNum=[]
+      document.querySelectorAll('[data-item]').forEach((v,k)=>{
+        let num1 = document.getElementById(`ipta${v.dataset.item}`).value;
+        let num2 = document.getElementById(`iptb${v.dataset.item}`).value;
+        let fuhao = document.getElementById(`fuhao${v.dataset.item}`).textContent;
+        let result = document.getElementById('result');
+        
+        if([num1,num2].includes('')){
+          resultNum[k]=0
+        document.querySelectorAll('.subtotal')[k].innerText=resultNum[k]
+          return
+        }
+        //+-×÷
+        
+        let __tempResult
+        if (fuhao == '+') {
+          __tempResult=Number(num1) + Number(num2)
+        } else if (fuhao == '-') {
+          __tempResult=Number(num1) - Number(num2)
+        } else if (fuhao == '×') {
+          __tempResult=Number(num1) * Number(num2)
+        } else if (fuhao == '÷') {
+          __tempResult=Number(num1) / Number(num2)
+        }
+        resultNum[k]= Number.isInteger(__tempResult)?__tempResult:toFixedDown(__tempResult,3);
+        document.querySelectorAll('.subtotal')[k].innerText=resultNum[k]
+      })
+
+      resultSum=preciseAdd(...resultNum)
+      console.log('======resultSum',resultSum);
+   
+   document.getElementById('result').innerText=   isNaN(resultSum)?0:resultSum
+   document.getElementById('result').animate([{opacity: 1,transform:'scale(0.9)'},{opacity: 0.7,transform:'scale(1.1)'},{opacity: 1,transform:'scale(1)'}],{duration: 300,iterations:3})
+    }
+    document.getElementById('wrapper').addEventListener('click',function(e){
+      if(e.target.closest('.delicon')?.getAttribute('data-type')=='del'){
+        arr_count.findIndex((v,k)=>{
+          if(v==e.target.closest('[data-item]').getAttribute('data-item')){
+            arr_count.splice(k,1)
+          }
+        })
+        e.target.closest('[data-item]').remove()
+        calc()
+      }
+      if(e.target.classList.contains('fuhaobtn')){
+        document.getElementById('fuhaomask').style.display='flex'
+         document.getElementById('fuhaomask').setAttribute('data-xuhao',e.target.dataset.xuhao)
+      }
+    })
+        document.getElementById('wrapper').addEventListener('blur', function(event) {
+    if (event.target.tagName.toLowerCase() === 'input') {
+      calc()
+    }
+  }, true); // 使用捕获阶段来监听blur事件
+  document.getElementById('fuhaomask').addEventListener('click',function(e){
+    if(e.target.dataset.fuhao){
+      document.getElementById('fuhao'+this.dataset.xuhao).textContent=e.target.dataset.fuhao
+      document.getElementById('fuhaomask').style.display='none'
+      calc()
+    }
+  })
+    function addInput(){
+      tillNow++
+      var str=template(tillNow)
+var odiv=document.createElement('div')
+odiv.innerHTML=str     
+      document.getElementById('wrapper').insertAdjacentElement('beforeend',odiv.firstElementChild)
+      calc()
+    }
+    function preciseAdd(...nums) {
+  // 获取所有数的小数位数
+  const digits = nums.map(num => {
+    const str = num.toString();
+    const dotIndex = str.indexOf('.');
+    return dotIndex === -1 ? 0 : str.length - dotIndex - 1;
+  });
+
+  // 计算最大小数位数
+  const maxDigits = Math.max(...digits);
+  const factor = 10 ** maxDigits;
+
+  // 转换为整数计算
+  const sum = nums.reduce((acc, num) => acc + num * factor, 0);
+  return sum / factor;
+}
+function toFixedDown(number, digits) {
+    const factor = Math.pow(10, digits);
+    return Math.floor(number * factor) / factor;
+}
+
+  </script>
+</body>
+</html>
