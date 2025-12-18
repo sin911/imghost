@@ -583,6 +583,12 @@ var global_data = [
     title: "调试工具",
     data: [
       {
+        link: "https://it-tools.tech/text-diff",
+        favicon: "",
+        text: "文本比较",
+        comment: "",
+      },
+      {
         link: "https://www.pagespy.org/docs",
         favicon: "",
         text: "web远程调试",
@@ -1586,21 +1592,21 @@ var global_data = [
         comment: "授权码KBX-JIDUG-XGcos#163zxm6",
       },
       {
-        link: "https://tr2.freeair888.club/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7/",
+        link: "https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
         favicon: "",
-        text: "dongtaiw",
+        text: "翻一原版",
         comment: "",
       },
       {
-        link: "https://dgithub.xyz/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
-        favicon: "https://github.githubassets.com/pinned-octocat.svg",
-        text: "翻一",
+        link: "https://2github.com/Alvin9999/new-pac/wiki/ss免费账号",
+        favicon: "",
+        text: "仅限大陆",
         comment: "",
       },
       {
-        link: "https://t.dtku25.xyz/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7/",
-        favicon: "https://github.githubassets.com/pinned-octocat.svg",
-        text: "翻一1",
+        link: "https://gitlab.com/zhifan999/fq/-/wikis/ss免费账号",
+        favicon: "",
+        text: "国内访问GitLab",
         comment: "",
       },
       {
