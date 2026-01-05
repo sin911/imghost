@@ -595,6 +595,12 @@ var global_data = [
         comment: "",
       },
       {
+        link: "https://stackblitz.com/",
+        favicon: "",
+        text: "stackblitz",
+        comment: "github",
+      },
+      {
         link: "https://codepen.io/your-work/",
         favicon:
           "https://cpwebassets.codepen.io/assets/favicon/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.png",
