@@ -279,9 +279,15 @@ var global_data = [
         comment: "",
       },
       {
+        link: "https://sharedchat.fun/",
+        favicon: "",
+        text: "公益gpt",
+        comment: "",
+      },
+      {
         link: "https://chatgptplus.cn/",
         favicon: "",
-        text: "chatGPT",
+        text: "公益gpt",
         comment: "",
       },
       {
@@ -293,13 +299,7 @@ var global_data = [
       {
         link: "https://free.share-ai.top/user-new/#/login",
         favicon: "",
-        text: "chatGPT",
-        comment: "",
-      },
-      {
-        link: "https://github.com/dairoot/ChatGPT-Mirror",
-        favicon: "",
-        text: "自建GPT",
+        text: "AI付费车队",
         comment: "",
       },
       {
@@ -307,19 +307,6 @@ var global_data = [
         favicon: "",
         text: "devv.ai",
         comment: "",
-      },
-
-      {
-        link: "https://gitclone.com/aiit/chat/",
-        favicon: "",
-        text: "gitclone",
-        comment: "",
-      },
-      {
-        link: "https://brainstorm.cool/zh-CN",
-        favicon: "",
-        text: "brainstorm",
-        comment: "账号密码一样tirsoa@xdhhc.com",
       },
       {
         link: "https://top.aibase.com/",
