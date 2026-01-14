@@ -170,6 +170,159 @@ var global_data = [
     ],
   },
   {
+    title: "博文",
+    data: [
+      {
+        link: "https://blog.csdn.net/aexwx",
+        favicon: "https://blog.csdn.net/favicon.ico",
+        text: "CSDN",
+        comment: "axsoasd",
+      },
+      {
+        link: "https://ishadeed.com/article/overflow-clip/",
+        favicon: "",
+        text: "ishadeed",
+        comment: "",
+      },
+      {
+        link: "https://cloud.tencent.com/developer/support-plan",
+        favicon: "",
+        text: "腾讯文章",
+        comment: "707395",
+      },
+      {
+        link: "https://edu.csdn.net/dailycode",
+        favicon: "",
+        text: "每日一练",
+        comment: "",
+      },
+      {
+        link: "https://www.bossdesign.cn/",
+        favicon: "",
+        text: "boss设计",
+        comment: "",
+      },
+      {
+        link: "http://www.cyc2018.xyz/",
+        favicon: "",
+        text: "cycBook",
+        comment: "",
+      },
+      {
+        link: "https://css-tricks.com/",
+        favicon: "",
+        text: "cssTricks",
+        comment: "",
+      }
+    ],
+  },
+  {
+    title: "Git",
+    data: [
+      {
+        link: " https://gitee.com/",
+        favicon: "./icon/gitee.png",
+        text: "码云",
+        comment: "cosqw",
+      },
+      {
+        link: "https://c.aalib.net/tool/github/",
+        favicon: "",
+        text: "github镜像",
+        comment: "",
+      },
+      {
+        link: "https://c.aalib.net/tool/gglink/",
+        favicon: "",
+        text: "谷歌镜像",
+        comment: "",
+      },
+      {
+        link: " https://www.ooopn.com/",
+        favicon: "",
+        text: "小白工具箱",
+        comment: "",
+      },
+      {
+        link: "https://mp.weixin.qq.com/s/cuOmqh0Lh5n4xJjLjzJmfA",
+        favicon: "",
+        text: "破解大全",
+        comment: "",
+      },
+      {
+        link: "https://gitclone.com/",
+        favicon: "",
+        text: "stackOverFlow",
+        comment: "",
+      },
+    ],
+  },
+  {
+    title: "chatGPT",
+    data: [
+      {
+        link: "https://chatgpt.com/",
+        favicon: "",
+        text: "chatgpt官方",
+        comment: "cos163 zhongdu",
+      },
+      {
+        link: "https://yuanbao.tencent.com/chat",
+        favicon: "",
+        text: "腾讯元宝",
+        comment: "",
+      },
+      {
+        link: "https://www.kimi.com/",
+        favicon: "",
+        text: "kimi",
+        comment: "",
+      },
+      {
+        link: "https://dakou.iflow.cn/chat/",
+        favicon: "",
+        text: "阿里搭叩",
+        comment: "",
+      },
+      {
+        link: "https://sharedchat.fun/",
+        favicon: "",
+        text: "公益gpt",
+        comment: "",
+      },
+      {
+        link: "https://chatgptplus.cn/",
+        favicon: "",
+        text: "公益gpt",
+        comment: "",
+      },
+      {
+        link: "https://copilot.tencent.com/chat",
+        favicon: "",
+        text: "腾讯CodeBuddy",
+        comment: "",
+      },
+      {
+        link: "https://free.share-ai.top/user-new/#/login",
+        favicon: "",
+        text: "AI付费车队",
+        comment: "",
+      },
+      {
+        link: "https://devv.ai/zh",
+        favicon: "",
+        text: "devv.ai",
+        comment: "",
+      },
+      {
+        link: "https://top.aibase.com/",
+        favicon: "",
+        text: "发现AI产品",
+        comment: "",
+      }
+    ],
+  },
+  {
     title: "wordpress",
     data: [
       {
@@ -251,71 +404,7 @@ var global_data = [
       },
     ],
   },
-  {
-    title: "chatGPT",
-    data: [
-      {
-        link: "https://chatgpt.com/",
-        favicon: "",
-        text: "chatgpt官方",
-        comment: "cos163 zhongdu",
-      },
-      {
-        link: "https://yuanbao.tencent.com/chat",
-        favicon: "",
-        text: "腾讯元宝",
-        comment: "",
-      },
-      {
-        link: "https://www.kimi.com/",
-        favicon: "",
-        text: "kimi",
-        comment: "",
-      },
-      {
-        link: "https://dakou.iflow.cn/chat/",
-        favicon: "",
-        text: "阿里搭叩",
-        comment: "",
-      },
-      {
-        link: "https://sharedchat.fun/",
-        favicon: "",
-        text: "公益gpt",
-        comment: "",
-      },
-      {
-        link: "https://chatgptplus.cn/",
-        favicon: "",
-        text: "公益gpt",
-        comment: "",
-      },
-      {
-        link: "https://copilot.tencent.com/chat",
-        favicon: "",
-        text: "腾讯CodeBuddy",
-        comment: "",
-      },
-      {
-        link: "https://free.share-ai.top/user-new/#/login",
-        favicon: "",
-        text: "AI付费车队",
-        comment: "",
-      },
-      {
-        link: "https://devv.ai/zh",
-        favicon: "",
-        text: "devv.ai",
-        comment: "",
-      },
-      {
-        link: "https://top.aibase.com/",
-        favicon: "",
-        text: "发现AI产品",
-        comment: "",
-      }
-    ],
-  },
+
   {
     title: '数据库',
     data: [
@@ -455,94 +544,8 @@ var global_data = [
       },
     ],
   },
-  {
-    title: "Git",
-    data: [
-      {
-        link: " https://gitee.com/",
-        favicon: "./icon/gitee.png",
-        text: "码云",
-        comment: "cosqw",
-      },
-      {
-        link: "https://c.aalib.net/tool/github/",
-        favicon: "",
-        text: "github镜像",
-        comment: "",
-      },
-      {
-        link: "https://c.aalib.net/tool/gglink/",
-        favicon: "",
-        text: "谷歌镜像",
-        comment: "",
-      },
-      {
-        link: " https://www.ooopn.com/",
-        favicon: "",
-        text: "小白工具箱",
-        comment: "",
-      },
-      {
-        link: "https://mp.weixin.qq.com/s/cuOmqh0Lh5n4xJjLjzJmfA",
-        favicon: "",
-        text: "破解大全",
-        comment: "",
-      },
-      {
-        link: "https://gitclone.com/",
-        favicon: "",
-        text: "stackOverFlow",
-        comment: "",
-      },
-    ],
-  },
-  {
-    title: "博文",
-    data: [
-      {
-        link: "https://blog.csdn.net/aexwx",
-        favicon: "https://blog.csdn.net/favicon.ico",
-        text: "CSDN",
-        comment: "axsoasd",
-      },
-      {
-        link: "https://ishadeed.com/article/overflow-clip/",
-        favicon: "",
-        text: "ishadeed",
-        comment: "",
-      },
-      {
-        link: "https://cloud.tencent.com/developer/support-plan",
-        favicon: "",
-        text: "腾讯文章",
-        comment: "707395",
-      },
-      {
-        link: "https://edu.csdn.net/dailycode",
-        favicon: "",
-        text: "每日一练",
-        comment: "",
-      },
-      {
-        link: "https://www.bossdesign.cn/",
-        favicon: "",
-        text: "boss设计",
-        comment: "",
-      },
-      {
-        link: "http://www.cyc2018.xyz/",
-        favicon: "",
-        text: "cycBook",
-        comment: "",
-      },
-      {
-        link: "https://css-tricks.com/",
-        favicon: "",
-        text: "cssTricks",
-        comment: "",
-      }
-    ],
-  },
+
+
   {
     title: "AI工具",
     data: [
@@ -585,7 +588,7 @@ var global_data = [
         link: "https://stackblitz.com/",
         favicon: "",
         text: "stackblitz",
-        comment: "github",
+        comment: "github登录",
       },
       {
         link: "https://codepen.io/your-work/",
@@ -875,6 +878,18 @@ var global_data = [
         text: "tailwindcss",
         comment: "",
       },
+      {
+        link: "https://getcssscan.com/css-box-shadow-examples",
+        favicon: "",
+        text: "阴影",
+        comment: "",
+      },
+      {
+        link: "https://webaim.org/resources/contrastchecker/",
+        favicon: "",
+        text: "WCAG标准检测",
+        comment: "",
+      }
     ],
   },
 
