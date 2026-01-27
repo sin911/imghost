@@ -8,12 +8,7 @@ var global_data = [
         text: "联想大转盘",
         comment: "抽屉的13175164515-zxcvbnm5+1无大写联系邮箱415791939@qq.com;",
       },
-      {
-        link: "https://cloud.tencent.com/login/subAccount/2694678441?type=subAccount&username=aexwx",
-        favicon: "",
-        text: "腾讯云",
-        comment: ""
-      },
+
       {
         link: "https://dict.thinktrader.net/innerApi/trading_function.html?id=TB5IbM",
         favicon: "",
@@ -55,6 +50,12 @@ var global_data = [
         favicon: "http://quote.eastmoney.com/favicon.ico",
         text: "东方财富",
         comment: "miuqi002asd-weibo",
+      },
+      {
+        link: "https://cloud.tencent.com/login/subAccount/2694678441?type=subAccount&username=aexwx",
+        favicon: "",
+        text: "腾讯云",
+        comment: "zM6@123"
       },
       {
         link: "https://top.baidu.com/board?tab=realtime",
