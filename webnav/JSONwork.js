@@ -9,6 +9,12 @@ var global_data = [
         comment: "抽屉的13175164515-zxcvbnm5+1无大写联系邮箱415791939@qq.com;",
       },
       {
+        link: "https://cloud.tencent.com/login/subAccount/2694678441?type=subAccount&username=aexwx",
+        favicon: "",
+        text: "腾讯云",
+        comment: ""
+      },
+      {
         link: "https://dict.thinktrader.net/innerApi/trading_function.html?id=TB5IbM",
         favicon: "",
         text: "迈投知识库",
@@ -409,7 +415,7 @@ var global_data = [
     title: '数据库',
     data: [
       {
-        link: "https://supabase.com/",
+        link: "https://supabase.com/dashboard/organizations",
         favicon: "",
         text: "Supabase",
         comment: "cos@163.com和zx..nm26",
