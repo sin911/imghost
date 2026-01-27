@@ -58,6 +58,12 @@ var global_data = [
         comment: "zM6@123"
       },
       {
+        link: "https://console.cloud.tencent.com/lighthouse/instance/index?rid=4",
+        favicon: "",
+        text: "轻量电脑",
+        comment: "zM6@123"
+      },
+      {
         link: "https://top.baidu.com/board?tab=realtime",
         favicon: "",
         text: "百度热榜",
