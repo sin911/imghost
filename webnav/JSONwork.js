@@ -298,13 +298,7 @@ var global_data = [
         comment: "",
       },
       {
-        link: "https://sharedchat.fun/",
-        favicon: "",
-        text: "公益gpt",
-        comment: "",
-      },
-      {
-        link: "https://chatgptplus.cn/",
+        link: "https://sharedchat.cc/",
         favicon: "",
         text: "公益gpt",
         comment: "",
