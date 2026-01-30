@@ -292,6 +292,12 @@ var global_data = [
         comment: "",
       },
       {
+        link: "https://gemini.google.com/app",
+        favicon: "",
+        text: "gemini",
+        comment: "",
+      },
+      {
         link: "https://dakou.iflow.cn/chat/",
         favicon: "",
         text: "阿里搭叩",
@@ -328,6 +334,23 @@ var global_data = [
         comment: "",
       }
     ],
+  },
+  {
+    title: "AI工具",
+    data: [
+      {
+        link: "https://www.xingliu.art/",
+        favicon: "",
+        text: "星流",
+        comment: "wx登录",
+      },
+      {
+        link: "https://skills.sh/",
+        favicon: "",
+        text: "skills",
+        comment: "",
+      }
+    ]
   },
   {
     title: "wordpress",
@@ -470,19 +493,25 @@ var global_data = [
       {
         link: "https://examples.motion.dev/",
         favicon: "",
-        text: "官网",
+        text: "motion",
         comment: "",
       },
       {
         link: "https://framermotionexamples.com/examples?s=all",
         favicon: "",
-        text: "例子",
+        text: "motion例子",
         comment: "",
       },
       {
         link: "https://motion.framer.wiki/basic-anilogic",
         favicon: "",
-        text: "中文",
+        text: "motion中文",
+        comment: "",
+      },
+      {
+        link: "https://lucide-animated.com/",
+        favicon: "",
+        text: "lucide-animated",
         comment: "",
       },
       {
