@@ -805,59 +805,7 @@ var global_data = [
       }
     ],
   },
-  {
-    title: "vue",
-    data: [
-      {
-        link: " https://cn.vuejs.org",
-        favicon: "https://cn.vuejs.org/logo.svg",
-        text: "vue3文档",
-        comment: "",
-      },
-      {
-        link: " https://cn.vuejs.org/api/",
-        favicon: "https://cn.vuejs.org/logo.svg",
-        text: "vue3所有API",
-        comment: "",
-      },
-      {
-        link: " https://pinia.web3doc.top/core-concepts/actions.html",
-        favicon: "",
-        text: "Pinia",
-        comment: "",
-      },
-      {
-        link: " https://next.router.vuejs.org/zh/api/",
-        favicon: "https://cn.vuejs.org/logo.svg",
-        text: "vue-router",
-        comment: "",
-      },
-      {
-        link: "https://router.vuejs.org/zh/guide/advanced/navigation-guards.html#%E5%85%A8%E5%B1%80%E5%89%8D%E7%BD%AE%E5%AE%88%E5%8D%AB",
-        favicon: "https://cn.vuejs.org/logo.svg",
-        text: "vueRouter守卫",
-        comment: "",
-      },
-      {
-        link: " https://cli.vuejs.org/zh/config/#%E5%85%A8%E5%B1%80-cli-%E9%85%8D%E7%BD%AE",
-        favicon: "https://cn.vuejs.org/logo.svg",
-        text: "vue-cli",
-        comment: "",
-      },
-      {
-        link: " https://v3.cn.vuejs.org/guide/migration/introduction.html#%E5%85%B6%E4%BB%96%E5%B0%8F%E6%94%B9%E5%8F%98",
-        favicon: "https://cn.vuejs.org/logo.svg",
-        text: "vue3区别",
-        comment: "",
-      },
-      {
-        link: " https://vueuse.org/core/usemouse/#contributors",
-        favicon: "https://cn.vuejs.org/logo.svg",
-        text: "vueUse",
-        comment: "",
-      },
-    ],
-  },
+
   {
     title: "react库",
     data: [
@@ -1118,12 +1066,6 @@ var global_data = [
         comment: "",
       },
       {
-        link: "https://uiverse.io/spotlight",
-        favicon: "",
-        text: "海量css特效",
-        comment: "",
-      },
-      {
         link: "https://neumorphism.io/",
         favicon: "",
         text: "阴影及按钮",
@@ -1321,6 +1263,17 @@ var global_data = [
         comment: "免费无版权",
       },
     ],
+  },
+  {
+    title: "拿来就用htmlcss",
+    data: [
+      {
+        link: "https://uiverse.io/",
+        favicon: "",
+        text: "uiverse",
+        comment: "",
+      }
+    ]
   },
   {
     title: "框架",
@@ -1861,41 +1814,5 @@ var global_data = [
         comment: "",
       }
     ]
-  },
-  {
-    title: '八字',
-    data: [
-      {
-        link: "https://lunisolar.js.org/guide/plugins/takeSound.html#%E5%AE%89%E8%A3%85",
-        favicon: "",
-        text: "lunisolar",
-        comment: "",
-      },
-      {
-        link: "https://pcbz.iwzwh.com/#/home/index",
-        favicon: "",
-        text: "iwzwh",
-        comment: "",
-      },
-      {
-        link: "https://yisuan.net/app-category/destiny",
-        favicon: "",
-        text: "yisuan",
-        comment: "",
-      },
-      {
-        link: "https://www.junzige.com/suanming/paipan/",
-        favicon: "",
-        text: "junzige",
-        comment: "",
-      },
-      {
-        link: "https://doc.yuanfenju.com/bazi/cesuan.html",
-        favicon: "",
-        text: "yuanfenju",
-        comment: "",
-      }
-    ]
   }
-
 ];
