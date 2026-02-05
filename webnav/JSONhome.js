@@ -70,7 +70,7 @@ var global_data = [
         comment: '',
       },
       {
-        link: 'https://sport.hao86.com/lanqiu/nba/match/',
+        link: 'https://www.haosport.com/lanqiu/nba/',
         favicon: '',
         text: '好体育',
         comment: '',
