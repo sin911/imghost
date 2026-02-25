@@ -76,6 +76,18 @@ var global_data = [
         comment: '',
       },
       {
+        link: 'https://ly5.58jxc.com/',
+        favicon: '',
+        text: '说球帝',
+        comment: '',
+      },
+      {
+        link: 'https://www.jytv350.com/classify/live?type=-1',
+        favicon: '',
+        text: '鲸鱼直播',
+        comment: '',
+      },
+      {
         link: 'http://www.popozhibo.xyz/match/1',
         favicon: '',
         text: '泡泡直播',
