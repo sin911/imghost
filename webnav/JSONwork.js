@@ -1589,6 +1589,30 @@ var global_data = [
         comment: "授权码KBX-JIDUG-XGcos#163zxm6",
       },
       {
+        link: "https://gitlab.com/zhifan999/fq/-/wikis/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+        favicon: "",
+        text: "v2ray大际元",
+        comment: "",
+      },
+      {
+        link: "https://gitlab.com/zhifan999/fq/-/wikis/%E9%AB%98%E5%86%85%E6%A0%B8%E7%89%88",
+        favicon: "",
+        text: "翻浏览器",
+        comment: "",
+      },
+      {
+        link: "https://bgithub.xyz/Alvin9999-newpac/fanqiang/wiki",
+        favicon: "",
+        text: "Alvin9999",
+        comment: "",
+      },
+      {
+        link: "https://gitlab.com/zhifan999/fq/-/wikis/home",
+        favicon: "",
+        text: "zhifan999",
+        comment: "",
+      },
+      {
         link: "https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
         favicon: "",
         text: "翻一原版",
