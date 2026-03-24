@@ -256,10 +256,10 @@ var global_data = [
     title: '下载',
     data: [
       {
-        link: 'https://www.gying.net/',
+        link: 'https://www.xn--wcv59z.com/',
         favicon: '',
         text: 'pianku',
-        comment: 'miuqi miuqi002 全球:www.gying.net www.gying.org www.gying.si www.gying.in www.gyg.la www.gyg.si',
+        comment: 'miuqi miuqi002 https://教父.com https://星际穿越.com https://楚门的世界.com https://泰坦尼克号.com https://盗梦空间.com https://肖申克的救赎.com https://阿甘正传.com https://黑客帝国.com',
       },
       {
         link: 'https://www.xl720.com/',
