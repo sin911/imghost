@@ -70,15 +70,15 @@ var global_data = [
         comment: '',
       },
       {
-        link: 'https://www.haosport.com/lanqiu/nba/',
-        favicon: '',
-        text: '好体育',
-        comment: '',
-      },
-      {
         link: 'https://ly5.58jxc.com/',
         favicon: '',
         text: '说球帝',
+        comment: '',
+      },
+      {
+        link: 'https://rrty655.com/home',
+        favicon: '',
+        text: '人人体育',
         comment: '',
       },
       {
