@@ -70,6 +70,12 @@ var global_data = [
         comment: '',
       },
       {
+        link: 'http://www.popozhibo.xyz/match/1',
+        favicon: '',
+        text: '泡泡直播',
+        comment: '备用地址http://www.88kq.net/',
+      },
+      {
         link: 'https://ly5.58jxc.com/',
         favicon: '',
         text: '说球帝',
@@ -87,12 +93,7 @@ var global_data = [
         text: '鲸鱼直播',
         comment: '',
       },
-      {
-        link: 'http://www.popozhibo.xyz/match/1',
-        favicon: '',
-        text: '泡泡直播',
-        comment: '备用地址http://www.88kq.net/',
-      },
+
       {
         link: 'https://www.ds-qq.com/NBA/',
         favicon: '',
