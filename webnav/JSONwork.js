@@ -737,12 +737,6 @@ var global_data = [
         comment: "",
       },
       {
-        link: "https://tool.lanrentuku.com/cssformat/",
-        favicon: "",
-        text: "懒人css",
-        comment: "",
-      },
-      {
         link: "https://tool.chinaz.com/Tools/CssFormat.aspx",
         favicon: "",
         text: "css压缩",
