@@ -137,6 +137,12 @@ var global_data = [
         comment: '',
       },
       {
+        link: 'https://cs.rin.ru/forum/memberlist.php?mode=viewprofile&u=3625690',
+        favicon: '',
+        text: 'cs.rin.ru',
+        comment: 'ax zm678',
+      },
+      {
         link: "https://ankergames.net/trending",
         favicon: "",
         text: "ankergames",
