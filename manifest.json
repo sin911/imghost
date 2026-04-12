@@ -14,7 +14,7 @@
     "type": "module"
   },
   "chrome_url_overrides": {  
-    "newtab": "webnav/work.html"  
+    "newtab": "webnav/home.html"  
   }, 
   "permissions": ["tabs"],
   "action": {

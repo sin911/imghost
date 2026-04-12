@@ -140,7 +140,7 @@ var global_data = [
         link: 'https://cs.rin.ru/forum/memberlist.php?mode=viewprofile&u=3625690',
         favicon: '',
         text: 'cs.rin.ru',
-        comment: 'ax zm678',
+        comment: 'ax zm678  【FitGirl】https://cs.rin.ru/forum/memberlist.php?mode=viewprofile&u=885704 【VOICE38】https://cs.rin.ru/forum/memberlist.php?mode=viewprofile&u=553522',
       },
       {
         link: "https://ankergames.net/trending",
