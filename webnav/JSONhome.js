@@ -187,7 +187,7 @@ var global_data = [
         link: 'https://w3.18x999.com/',
         favicon: '',
         text: '新利菠菜',
-        comment: 'axzx大m5+2邮箱csd@18luck.com https://w3.luck4302.com/ https://secure.livechatinc.com/licence/19042380/v2/open_chat.cgi?groups=1&name=aexwx https://affi.18luckf3.com/?account=aexwx&platform=2 ',
+        comment: 'axzx大m5+2 交易密码963邮箱csd@18luck.com https://w3.luck4302.com/ https://secure.livechatinc.com/licence/19042380/v2/open_chat.cgi?groups=1&name=aexwx https://affi.18luckf3.com/?account=aexwx&platform=2',
       },
       {
         link: 'https://www.google.com/adsense/v3/app?hl=zh_CN#home',

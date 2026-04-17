@@ -8,7 +8,6 @@ var global_data = [
         text: "联想大转盘",
         comment: "抽屉的13175164515-zxcvbnm5+1无大写联系邮箱415791939@qq.com;",
       },
-
       {
         link: "https://dict.thinktrader.net/innerApi/trading_function.html?id=TB5IbM",
         favicon: "",
@@ -1516,12 +1515,12 @@ var global_data = [
         link: "https://www.cloudflare-cn.com/",
         favicon: "",
         text: "cloudflare",
-        comment: "cos163 asd4$",
+        comment: "cos163 sin163都是asd4$",
       },
       {
-        link: " https://leapcell.io/",
+        link: "https://leapcell.io/",
         favicon: "",
-        text: "leapcell",
+        text: "leapcell网站托管",
         comment: "用github",
       },
       {
@@ -1641,6 +1640,42 @@ var global_data = [
         favicon: "",
         text: "ssr地址",
         comment: "站务：tianfangdao@gmail.com",
+      },
+      {
+        link: "https://www.freedidi.com/23618.html",
+        favicon: "",
+        text: "零度博客",
+        comment: "",
+      },
+      {
+        link: "https://www.dnshe.com/",
+        favicon: "",
+        text: "catwall35年12月续费",
+        comment: "catwall asL6有大,到期前180天",
+      },
+      {
+        link: "https://dash.domain.digitalplat.org/domains/heycat.qzz.io",
+        favicon: "",
+        text: "heycat2月续费",
+        comment: "cos163 asl6无大,到期前90天",
+      },
+      {
+        link: "https://www.speedtest.net/zh-Hans",
+        favicon: "",
+        text: "speedtest",
+        comment: "",
+      },
+      {
+        link: "https://heycat.qzz.io/admin",
+        favicon: "",
+        text: "heycatAdminff",
+        comment: "",
+      },
+      {
+        link: "https://catwall.ccwu.cc/admin",
+        favicon: "",
+        text: "catwallAdminff",
+        comment: "",
       },
     ],
   },
