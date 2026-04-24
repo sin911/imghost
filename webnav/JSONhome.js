@@ -52,7 +52,7 @@ var global_data = [
         comment: '',
       },
       {
-        link: 'http://vs.5eplay.com/cstrike',
+        link: 'https://vs123.com/cs1.6',
         favicon: '',
         text: 'cs1.6服务器',
         comment: '',
@@ -68,12 +68,6 @@ var global_data = [
         favicon: '',
         text: 'NBA回放',
         comment: '',
-      },
-      {
-        link: 'http://www.popozhibo.xyz/match/1',
-        favicon: '',
-        text: '泡泡直播',
-        comment: '备用地址http://www.88kq.net/',
       },
       {
         link: 'https://ly5.58jxc.com/',
@@ -184,10 +178,10 @@ var global_data = [
     title: '其他',
     data: [
       {
-        link: 'https://w3.18x999.com/',
+        link: 'https://bet18lk.net/',
         favicon: '',
         text: '新利菠菜',
-        comment: 'axzx大m5+2 交易密码963邮箱csd@18luck.com https://w3.luck4302.com/ https://secure.livechatinc.com/licence/19042380/v2/open_chat.cgi?groups=1&name=aexwx https://affi.18luckf3.com/?account=aexwx&platform=2',
+        comment: 'axzx大m5+2 交易密码963邮箱csd@18luck.com邮箱csd@18luck.info 前导页https://bet18lk.net/ https://w3.luck4302.com/ https://secure.livechatinc.com/licence/19042380/v2/open_chat.cgi?groups=1&name=aexwx https://affi.18luckf3.com/?account=aexwx&platform=2',
       },
       {
         link: 'https://www.google.com/adsense/v3/app?hl=zh_CN#home',
@@ -195,7 +189,6 @@ var global_data = [
         text: '谷歌联盟',
         comment: '',
       },
-
       {
         link: 'http://tongji.baidu.com/web/welcome/login',
         favicon: './icon/baidutongji.png',
@@ -206,6 +199,12 @@ var global_data = [
         link: 'http://dongtaiwang.com/loc/phome.php?v=0',
         favicon: '',
         text: '动态网',
+        comment: '',
+      },
+      {
+        link: 'https://news.ixbk.net/',
+        favicon: '',
+        text: '线报羊毛',
         comment: '',
       },
       {

@@ -537,6 +537,12 @@ var global_data = [
     title: "图转html",
     data: [
       {
+        link: "https://stitch.withgoogle.com/",
+        favicon: "",
+        text: "谷歌stitch",
+        comment: "",
+      },
+      {
         link: "https://bolt.new/",
         favicon: "",
         text: "blot",
@@ -733,6 +739,12 @@ var global_data = [
         link: "https://jex.im/regulex/#!flags=&re=%5E(a%7Cb)*%3F%24",
         favicon: "",
         text: "reg可视化",
+        comment: "",
+      },
+      {
+        link: "https://www.lingguang.com/share/CONTENT-e7abc88a-6305-4e37-aa02-8353aa51508613",
+        favicon: "",
+        text: "灵光css压缩",
         comment: "",
       },
       {
@@ -1849,12 +1861,17 @@ var global_data = [
         comment: "",
       },
       {
-        link: "https://www.awwwards.com/websites/sites_of_the_day/",
+        link: "https://supahero.io/",
         favicon: "",
-        text: "awwwards获奖",
+        text: "supahero",
+        comment: "",
+      },
+      {
+        link: "https://www.footer.design/",
+        favicon: "",
+        text: "footerD",
         comment: "",
       }
-
     ]
   },
   {
