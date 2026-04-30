@@ -134,7 +134,7 @@ var global_data = [
         link: 'https://cs.rin.ru/forum/memberlist.php?mode=viewprofile&u=3625690',
         favicon: '',
         text: 'cs.rin.ru',
-        comment: 'ax zm678  【FitGirl】https://cs.rin.ru/forum/memberlist.php?mode=viewprofile&u=885704 【VOICE38】https://cs.rin.ru/forum/memberlist.php?mode=viewprofile&u=553522',
+        comment: 'ax zm678  【FitGirl】https://cs.rin.ru/forum/memberlist.php?mode=viewprofile&u=885704 【VOICE38】https://cs.rin.ru/forum/memberlist.php?mode=viewprofile&u=553522 【voice38Reddit】https://www.reddit.com/user/voices38/ 【Reddit】https://www.reddit.com/r/CrackWatch/',
       },
       {
         link: "https://ankergames.net/trending",
