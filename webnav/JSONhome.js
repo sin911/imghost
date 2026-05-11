@@ -125,10 +125,10 @@ var global_data = [
         comment: '',
       },
       {
-        link: 'https://byrut.org/',
+        link: 'https://byrutgame.org/',
         favicon: '',
         text: 'byrut',
-        comment: '',
+        comment: 'https://byrut.org/',
       },
       {
         link: 'https://cs.rin.ru/forum/memberlist.php?mode=viewprofile&u=3625690',
