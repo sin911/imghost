@@ -48,7 +48,7 @@ var global_data = [
         link: "http://quote.eastmoney.com/zixuan/?from=home",
         favicon: "http://quote.eastmoney.com/favicon.ico",
         text: "东方财富",
-        comment: "miuqi002asd-weibo",
+        comment: "优先手机号,miuqi002asd-weibo",
       },
       {
         link: "https://cloud.tencent.com/login/subAccount/2694678441?type=subAccount&username=aexwx",
