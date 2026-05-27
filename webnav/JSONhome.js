@@ -152,7 +152,7 @@ var global_data = [
         link: 'https://rutracker.net/',
         favicon: '',
         text: 'rutracker',
-        comment: '账号vmzjekybrh密码@iubridge.com',
+        comment: '账号ax密码as4',
       },
       {
         link: 'https://www.lmaoyx.com/',
