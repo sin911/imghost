@@ -265,7 +265,7 @@ var global_data = [
         link: 'https://www.xn--wcv59z.com/',
         favicon: '',
         text: 'pianku',
-        comment: 'miuqi miuqi002 https://教父.com https://星际穿越.com https://楚门的世界.com https://泰坦尼克号.com https://盗梦空间.com https://肖申克的救赎.com https://阿甘正传.com https://黑客帝国.com',
+        comment: 'miuqi miuqi002 地址发布页https://www.xn--ykq321c.com/ https://肖申克的救赎.com 阿甘正传.com 盗梦空间.com 星际穿越.com',
       },
       {
         link: 'https://www.xl720.com/',
