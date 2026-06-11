@@ -1695,6 +1695,12 @@ var global_data = [
         text: "catwallAdminff",
         comment: "",
       },
+      {
+        link: "https://downloadhd.net/",
+        favicon: "",
+        text: "视频下载",
+        comment: "dlaexwx dlaexwxdlaexwx",
+      }
     ],
   },
   {
