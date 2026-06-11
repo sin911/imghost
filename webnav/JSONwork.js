@@ -51,6 +51,12 @@ var global_data = [
         comment: "优先手机号,miuqi002asd-weibo",
       },
       {
+        link: "https://finance.yahoo.com/quote/NVDA/key-statistics/",
+        favicon: "",
+        text: "雅虎美股",
+        comment: "",
+      },
+      {
         link: "https://cloud.tencent.com/login/subAccount/2694678441?type=subAccount&username=aexwx",
         favicon: "",
         text: "腾讯云",
