@@ -297,6 +297,12 @@ var global_data = [
         comment: "",
       },
       {
+        link: "https://www.zhipuai.cn/zh",
+        favicon: "",
+        text: "智谱AI",
+        comment: "",
+      },
+      {
         link: "https://www.kimi.com/",
         favicon: "",
         text: "kimi",
