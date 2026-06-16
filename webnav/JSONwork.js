@@ -285,9 +285,15 @@ var global_data = [
         comment: "cos163 zhongdu",
       },
       {
-        link: "https://yuanbao.tencent.com/chat",
+        link: "https://gemini.google.com/app",
         favicon: "",
-        text: "腾讯元宝",
+        text: "gemini",
+        comment: "",
+      },
+      {
+        link: "https://chatglm.cn/main/alltoolsdetail?lang=zh",
+        favicon: "",
+        text: "智谱清言",
         comment: "",
       },
       {
@@ -297,9 +303,9 @@ var global_data = [
         comment: "",
       },
       {
-        link: "https://gemini.google.com/app",
+        link: "https://yuanbao.tencent.com/chat",
         favicon: "",
-        text: "gemini",
+        text: "腾讯元宝",
         comment: "",
       },
       {
