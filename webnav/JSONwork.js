@@ -1579,7 +1579,7 @@ var global_data = [
         link: "https://www.oracle.com/cn/cloud/free/",
         favicon: "",
         text: "oracle大陆",
-        comment: ""
+        comment: "cos邮箱里有绕过码"
       },
       {
         link: "https://ip112.cn/",
