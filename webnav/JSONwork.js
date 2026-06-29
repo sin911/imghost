@@ -1233,7 +1233,7 @@ var global_data = [
       },
       {
         link: "https://appshots.design/",
-        favicon: "./icon/fanwall.jpg",
+        favicon: "./icon/wall.jpg",
         text: "前言app",
         comment: "谷歌登录cos",
       },
@@ -1245,7 +1245,7 @@ var global_data = [
       },
       {
         link: "https://land-book.com/",
-        favicon: "./icon/fanwall.jpg",
+        favicon: "./icon/wall.jpg",
         text: "landbook",
         comment: "",
       },
@@ -1285,6 +1285,12 @@ var global_data = [
         text: "pexels",
         comment: "免费无版权",
       },
+      {
+        link: "https://uinotes.substack.com/",
+        favicon: "./icon/wall.jpg",
+        text: "uinote",
+        comment: "需要翻墙访问",
+      }
     ],
   },
   {
