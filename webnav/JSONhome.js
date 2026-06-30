@@ -277,7 +277,13 @@ var global_data = [
         link: 'https://yunpan1.cc/',
         favicon: '',
         text: '懒盘搜索',
-        comment: 'oiv201726@163.com https://www.kdocs.cn/l/ce6gIRGCAzW3 https://www.yunpan1.wang/ https://yunpan1.wang/ https://www.yunpan1.xyz/ https://yunpan1.xyz/     https://www.yunpan1.cc/ https://yunpan1.cc/ https://www.yunpan1.co/ https://yunpan1.co/ https://link3.cc/yunpan1',
+        comment: 'kuchakucha kucha2@M 客服邮箱oiv201726@163.com LocalStorage里verificationExpiration写13个9可关闭弹窗 https://www.kdocs.cn/l/ce6gIRGCAzW3 https://www.yunpan1.wang/ https://yunpan1.wang/ https://www.yunpan1.xyz/ https://yunpan1.xyz/     https://www.yunpan1.cc/ https://yunpan1.cc/ https://www.yunpan1.co/ https://yunpan1.co/ https://link3.cc/yunpan1',
+      },
+      {
+        link: 'https://xiaotusoso.com/',
+        favicon: '',
+        text: '小兔搜搜',
+        comment: '',
       },
       {
         link: 'https://www.lzpanx.com/',
@@ -430,12 +436,6 @@ var global_data = [
         favicon: '',
         text: '可乐影视大全',
         comment: '备用http://klyingshi.vip/',
-      },
-      {
-        link: 'https://www.libvio.cc/play/714889315-2-15.html',
-        favicon: '',
-        text: '终末武神',
-        comment: '失联libvio@outlook.com',
       },
       {
         link: 'https://1319d997.libretv-cgp.pages.dev/',
