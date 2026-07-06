@@ -315,6 +315,12 @@ var global_data = [
         comment: "",
       },
       {
+        link: "https://longcat.chat/",
+        favicon: "",
+        text: "longcat",
+        comment: "",
+      },
+      {
         link: "https://dakou.iflow.cn/chat/",
         favicon: "",
         text: "阿里搭叩",
@@ -353,6 +359,17 @@ var global_data = [
     ],
   },
   {
+    title: "AI建站",
+    data: [
+      {
+        link: "https://www.framer.com/",
+        favicon: "",
+        text: "framer",
+        comment: "",
+      },
+    ]
+  },
+  {
     title: "AI工具",
     data: [
       {
@@ -365,6 +382,25 @@ var global_data = [
         link: "https://skills.sh/",
         favicon: "",
         text: "skills",
+        comment: "",
+      },
+
+      {
+        link: "https://www.insmind.com/zh-cn/background-remover/",
+        favicon: "",
+        text: "扣背景",
+        comment: "",
+      },
+      {
+        link: "https://www.iloveimg.com/zh-cn/convert-to-jpg/webp-to-jpg",
+        favicon: "",
+        text: "webp转jpg",
+        comment: "",
+      },
+      {
+        link: "https://docsmall.com/gif-compress",
+        favicon: "",
+        text: "gif压缩",
         comment: "",
       }
     ]
@@ -603,31 +639,6 @@ var global_data = [
       },
     ],
   },
-
-
-  {
-    title: "AI工具",
-    data: [
-      {
-        link: "https://www.insmind.com/zh-cn/background-remover/",
-        favicon: "",
-        text: "扣背景",
-        comment: "",
-      },
-      {
-        link: "https://www.iloveimg.com/zh-cn/convert-to-jpg/webp-to-jpg",
-        favicon: "",
-        text: "webp转jpg",
-        comment: "",
-      },
-      {
-        link: "https://docsmall.com/gif-compress",
-        favicon: "",
-        text: "gif压缩",
-        comment: "",
-      }
-    ]
-  },
   {
     title: "调试工具",
     data: [
@@ -727,6 +738,12 @@ var global_data = [
         link: "https://tool.oschina.net/codeformat/js",
         favicon: "",
         text: "js格式化",
+        comment: "",
+      },
+      {
+        link: "https://ihateregex.io/playground/",
+        favicon: "",
+        text: "ihateregex",
         comment: "",
       },
       {
@@ -965,7 +982,7 @@ var global_data = [
       {
         link: "https://roadmap.sh/react",
         favicon: "",
-        text: "roadmap",
+        text: "roadmap学习路线指南",
         comment: "",
       },
       {
