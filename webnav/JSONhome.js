@@ -101,28 +101,22 @@ var global_data = [
         comment: ''
       },
       {
-        link: 'https://kq1290.com/home',
+        link: 'https://www.vipboxtv.sk/ufc-stream',
         favicon: '',
-        text: 'ufcc',
-        comment: '备用https://kq.cc/'
-      },
-      {
-        link: 'https://720pstream.nu/',
-        favicon: '',
-        text: '720pstream',
+        text: 'vipbox',
         comment: ''
       },
       {
-        link: 'https://live.sporttuna.pro/',
+        link: 'https://buffstreams.ir/',
         favicon: '',
-        text: 'sporttuna',
-        comment: 'https://sporttuna.sx/live/mma/和https://sporttuna.sx/livestream/',
+        text: 'ufcBUFF',
+        comment: ''
       },
       {
-        link: 'https://the.buffstream.io/mma-streams-live-10',
-        favicon: '',
-        text: 'buffstream',
-        comment: '',
+        link: 'https://techpc.info/',
+        favicon: './icon/wall.jpg',
+        text: 'ufctech',
+        comment: ''
       },
       {
         link: 'https://byrutgame.org/',
