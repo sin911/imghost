@@ -390,6 +390,12 @@ var global_data = [
         favicon: "",
         text: "影视仓",
         comment: "直播源https://juwanhezi.com/more/live肥猫源https://tvbox.wpcoder.cn/#peizhi",
+      },
+      {
+        link: 'https://tvbox.clbug.com/',
+        favicon: '',
+        text: 'tvbox',
+        comment: '源https://tvbox.clbug.com/user.php',
       }
     ],
   },
