@@ -355,6 +355,12 @@ var global_data = [
         favicon: "",
         text: "发现AI产品",
         comment: "",
+      },
+      {
+        link: "https://ai.gitcode.com/serverless-api",
+        favicon: "",
+        text: "AtomCode权益",
+        comment: "180019",
       }
     ],
   },
