@@ -45,12 +45,7 @@ var global_data = [
         text: 'Epic',
         comment: '',
       },
-      {
-        link: 'http://www.sucaihuo.com/Member/sign.html',
-        favicon: 'https://ossali.sucaihuo.com/sucaihuo/Public/images/favicon.ico',
-        text: '素材火',
-        comment: '',
-      },
+
       {
         link: 'https://vs123.com/cs1.6',
         favicon: '',
@@ -113,10 +108,16 @@ var global_data = [
         comment: ''
       },
       {
-        link: 'https://techpc.info/',
+        link: 'https://goluchas.com/',
         favicon: './icon/wall.jpg',
-        text: 'ufctech',
+        text: 'ufcgolu',
         comment: ''
+      },
+      {
+        link: 'https://techintern.info/',
+        favicon: './icon/wall.jpg',
+        text: 'techUFC',
+        comment: 'https://techintern.info/ admin@techintern.info'
       },
       {
         link: 'https://byrutgame.org/',
