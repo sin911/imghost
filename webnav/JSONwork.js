@@ -46,7 +46,7 @@ var global_data = [
       },
       {
         link: "http://quote.eastmoney.com/zixuan/?from=home",
-        favicon: "http://quote.eastmoney.com/favicon.ico",
+        favicon: "./icon/eastcaifu.ico",
         text: "东方财富",
         comment: "优先手机号,miuqi002asd-weibo",
       },
@@ -292,26 +292,26 @@ var global_data = [
       },
       {
         link: "https://chatglm.cn/main/alltoolsdetail?lang=zh",
-        favicon: "",
+        favicon: "./icon/zhipu.ico",
         text: "智谱清言",
+        comment: "",
+      },
+      {
+        link: "https://www.kimi.com/",
+        favicon: "./icon/kimi.ico",
+        text: "kimi",
+        comment: "",
+      },
+      {
+        link: "https://yuanbao.tencent.com/chat",
+        favicon: "./icon/yuanbao.png",
+        text: "腾讯元宝",
         comment: "",
       },
       {
         link: "https://www.zhipuai.cn/zh",
         favicon: "",
         text: "智谱AI",
-        comment: "",
-      },
-      {
-        link: "https://www.kimi.com/",
-        favicon: "",
-        text: "kimi",
-        comment: "",
-      },
-      {
-        link: "https://yuanbao.tencent.com/chat",
-        favicon: "",
-        text: "腾讯元宝",
         comment: "",
       },
       {
