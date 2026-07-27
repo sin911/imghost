@@ -309,6 +309,13 @@ var global_data = [
         comment: "",
       },
       {
+        link: "https://www.doubao.com/",
+        favicon: "./icon/doubao.png",
+        text: "豆包",
+        comment: "",
+
+      },
+      {
         link: "https://www.zhipuai.cn/zh",
         favicon: "",
         text: "智谱AI",
