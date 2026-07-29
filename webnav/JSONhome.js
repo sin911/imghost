@@ -53,12 +53,6 @@ var global_data = [
         comment: '',
       },
       {
-        link: "https://juwanhezi.com/more/live",
-        favicon: "",
-        text: "影视仓",
-        comment: "备用https://tvbox.wpcoder.cn/#peizhi",
-      },
-      {
         link: 'https://www.tiyuhu.com/nbalx/',
         favicon: '',
         text: 'NBA回放',
@@ -281,7 +275,13 @@ var global_data = [
         comment: '',
       },
       {
-        link: 'https://www.lzpanx.com/',
+        link: ' https://xiaokupan.com/',
+        favicon: '',
+        text: '小酷盘',
+        comment: '',
+      },
+      {
+        link: 'https://vcsoso.com/',
         favicon: '',
         text: '懒盘搜索',
         comment: '',
@@ -391,6 +391,12 @@ var global_data = [
         favicon: "",
         text: "影视仓",
         comment: "直播源https://juwanhezi.com/more/live肥猫源https://tvbox.wpcoder.cn/#peizhi",
+      },
+      {
+        link: "https://www.kkpans.com/tvbox",
+        favicon: "",
+        text: "kkTvBox",
+        comment: "",
       },
       {
         link: 'https://tvbox.clbug.com/',
