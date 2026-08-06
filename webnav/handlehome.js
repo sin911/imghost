@@ -68,4 +68,4 @@ function render(data) {
   })
   document.getElementById('ctx').innerHTML = cc
 }
-render(global_data)
+render(global_data.arr_sites)
