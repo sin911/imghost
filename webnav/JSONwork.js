@@ -332,7 +332,7 @@ var global_data = {
         {
           "comment": "cosqw",
           "favicon": "./icon/gitee.png",
-          "link": "shturl.cc/hVFoazRw",
+          "link": "https://gitee.com/",
           "text": "码云"
         },
         {
