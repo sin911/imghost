@@ -6,7 +6,13 @@ var global_data = {
           "comment": "抽屉的13175164515-zxcvbnm5+1无大写联系邮箱415791939@qq.com;",
           "favicon": "",
           "link": "https://activity.lenovo.com.cn/club/lucky.html",
-          "text": "联想大转盘wk11"
+          "text": "联想大转盘"
+        },
+        {
+          "comment": "",
+          "favicon": "",
+          "link": "https://dayquant.com/custom/factor-library",
+          "text": "天量极客"
         },
         {
           "comment": "",
@@ -25,12 +31,6 @@ var global_data = {
           "favicon": "",
           "link": "https://www.reddit.com/",
           "text": "reddit"
-        },
-        {
-          "comment": "test@example.com password",
-          "favicon": "",
-          "link": "https://www.acai365.com/ac_jn_cms/login/index/",
-          "text": "新锦囊后台"
         },
         {
           "comment": "英文原版https://quickref.me",
@@ -188,7 +188,7 @@ var global_data = {
     {
       "data": [
         {
-          "comment": "cos163 zhongdu",
+          "comment": "cos163 buyaodu",
           "favicon": "",
           "link": "https://chatgpt.com/",
           "text": "chatgpt官方"
@@ -276,6 +276,30 @@ var global_data = {
           "favicon": "",
           "link": "https://ai.gitcode.com/serverless-api",
           "text": "AtomCode权益"
+        },
+        {
+          "comment": "cos163 sin163都是asd4$仅限codeBuddy",
+          "favicon": "./icon/cloudflare.ico",
+          "link": "https://dash.cloudflare.com/2ea27bf24debda068e01725c31276468/ai/workers-ai/usage",
+          "text": "cfAI用量"
+        },
+        {
+          "comment": "无密码,登录需cospass邮箱里跳转,仅限codeBuddy",
+          "favicon": "",
+          "link": "https://cloud.cerebras.ai/platform/",
+          "text": "cerebras"
+        },
+        {
+          "comment": "cos163,优先codeBuddy,CLINE次之",
+          "favicon": "",
+          "link": "https://build.nvidia.com/models",
+          "text": "英伟达模型"
+        },
+        {
+          "comment": "手机号切至GT***wx登录",
+          "favicon": "",
+          "link": "https://codearts.huaweicloud.com/portal/settings/personal-usage?locale=zh-cn",
+          "text": "华为codeArt用量"
         }
       ],
       "title": "chatGPT"
@@ -283,7 +307,7 @@ var global_data = {
     {
       "data": [
         {
-          "comment": "axsoasd",
+          "comment": "axsohu asd",
           "favicon": "https://blog.csdn.net/favicon.ico",
           "link": "https://blog.csdn.net/aexwx",
           "text": "CSDN"
@@ -1930,6 +1954,17 @@ var global_data = {
         }
       ],
       "title": "3d素材"
+    },
+    {
+      "data": [
+        {
+          "comment": "",
+          "favicon": "",
+          "link": "https://typewords.cc/",
+          "text": "typeword"
+        }
+      ],
+      "title": "英语"
     }
   ]
 }

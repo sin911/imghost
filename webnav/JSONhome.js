@@ -1,4 +1,4 @@
-var global_data={
+var global_data = {
   "arr_sites": [
     {
       "data": [
@@ -6,7 +6,7 @@ var global_data={
           "comment": "抽屉的13175164515-zxcvbnm5+1无大写联系邮箱415791939@qq.com;",
           "favicon": "",
           "link": "https://activity.lenovo.com.cn/club/lucky.html",
-          "text": "联想大转盘hm33"
+          "text": "联想大转盘"
         },
         {
           "comment": "",
@@ -100,13 +100,13 @@ var global_data={
         },
         {
           "comment": "",
-          "favicon": "./icon/wall.jpg",
-          "link": "https://goluchas.com/",
+          "favicon": "",
+          "link": "https://goluchitas.com/",
           "text": "ufcgolu"
         },
         {
           "comment": "https://techintern.info/ admin@techintern.info",
-          "favicon": "./icon/wall.jpg",
+          "favicon": "",
           "link": "https://techintern.info/",
           "text": "techUFC"
         },
@@ -136,7 +136,7 @@ var global_data={
         },
         {
           "comment": "账号ax密码as4",
-          "favicon": "",
+          "favicon": "./icon/wall.jpg",
           "link": "https://rutracker.net/",
           "text": "rutracker"
         },
@@ -258,49 +258,49 @@ var global_data={
           "link": "https://www.xl720.com/",
           "text": "迅雷电影天堂"
         },
-         {
+        {
           "comment": "电报https://t.me/hongniuzycom https://www.hongniuzy.com/help/ hongniuziyuan.com、hongniuzy.com hongniuziyuan.tv、hongniuzy.tv hongniuziyuan.net、hongniuzy.net（总有一条可以打开）",
           "favicon": "",
           "link": "https://www.hongniuzy.tv/",
           "text": "红牛采集"
         },
-         {
+        {
           "comment": "电报https://t.me/GuangSuZY 备用：guangsuzy.com、guangsuziyuan.com、 guangsuzy.net、 guangsuziyuan.net",
           "favicon": "",
           "link": "https://www.guangsuzy.com/",
           "text": "光速采集"
         },
-           {
+        {
           "comment": "主域名:yzzy.tv hdzyk.com(备用网址): 1080zyk1.com 至 1080zyk15.com",
           "favicon": "",
           "link": "https://yzzy.tv/",
           "text": "采集站"
         },
-             {
+        {
           "comment": "Telegram交流群：https://t.me/tantanzy888 资源大全: https://t.me/tantanzy9 影视资源采集：👉大众资源网址： dzzy.com👉百度资源网址： bdzy.com👉 U酷资源网址： ukuzy.com",
           "favicon": "",
           "link": "https://ukuzy0.com/",
           "text": "u酷资源"
         },
-             {
+        {
           "comment": "电报https://t.me/suonizy备用suonizy.net suonizy.cc",
           "favicon": "",
           "link": "https://suonizy.net/",
           "text": "索尼采集"
         },
-             {
+        {
           "comment": "电报https://t.me/okzy666",
           "favicon": "",
           "link": "https://okzyw.cc/",
           "text": "ok采集"
         },
-             {
+        {
           "comment": "电报https://t.me/mtzyme 茅台资源站 ： mtzy.me    备用网址： mtzy.tv、mtzy.me、mtzy1.com-mtzy6.com",
           "favicon": "",
           "link": "http://mtzy.me/",
           "text": "茅台采集"
         },
-             {
+        {
           "comment": "https://t.me/bdzycom",
           "favicon": "",
           "link": "https://bdzy1.com/",
